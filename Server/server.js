@@ -11,7 +11,7 @@ const createRouter = require('./helpers/create_router.js');
 
 MongoClient.connect('mongodb://127.0.0.1:27017', { useUnifiedTopology: true })
   .then((client) => {
-    const db = client.db('countriesHub');
+    const db = client.db('countryHub');
     const countriesCollection = db.collection('countries');
     const countriesRouter = createRouter(countriesCollection);
 
@@ -22,5 +22,5 @@ MongoClient.connect('mongodb://127.0.0.1:27017', { useUnifiedTopology: true })
   .catch(console.error);
 
 app.listen(9000, function() {
-  console.log(`Countries server running on port ${this.address().port}`);
+  console.log(`Country server running on port ${this.address().port}`);
 });
