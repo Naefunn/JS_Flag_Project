@@ -8,79 +8,89 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
         },
-    {
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
-        continent: "Europe"
+        continent: "Europe",
+        flag: ""
     }]},
 {southAmerica:[
     {
@@ -89,7 +99,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -97,7 +108,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -105,7 +117,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -113,7 +126,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -121,7 +135,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -129,7 +144,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -137,7 +153,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -145,7 +162,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     },
     {
         name: "",
@@ -153,7 +171,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South American"
+        continent: "South American",
+        flag: ""
     },
     {
         name: "",
@@ -161,7 +180,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "South America"
+        continent: "South America",
+        flag: ""
     }]},
 {Asia:[{
         name: "",
@@ -169,7 +189,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -177,7 +198,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -185,7 +207,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -193,7 +216,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -201,7 +225,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -209,7 +234,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -217,7 +243,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -225,7 +252,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -233,7 +261,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     },
     {
         name: "",
@@ -241,7 +270,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Asia"
+        continent: "Asia",
+        flag: ""
     }]},
 {Africa:[{
         name: "",
@@ -249,7 +279,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -257,7 +288,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -265,7 +297,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -273,7 +306,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -281,7 +315,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -289,7 +324,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -297,7 +333,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -305,7 +342,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -313,7 +351,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
         },
         {
         name: "",
@@ -321,7 +360,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Africa"
+        continent: "Africa",
+        flag: ""
     }]},
 {NorthAndCentralAmerica:[{
         name: "",
@@ -329,7 +369,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -337,7 +378,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -345,7 +387,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -353,7 +396,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -361,7 +405,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -369,7 +414,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -377,7 +423,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -385,7 +432,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -393,7 +441,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     },
     {
         name: "",
@@ -401,7 +450,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "North and Central America"
+        continent: "North and Central America",
+        flag: ""
     }]},
     {Oceana:[{
         name: "",
@@ -409,7 +459,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -417,7 +468,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -425,7 +477,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -433,7 +486,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -441,7 +495,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -449,7 +504,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -457,7 +513,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -465,7 +522,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -473,7 +531,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     },
     {
         name: "",
@@ -481,7 +540,8 @@ db.countries.insertMany([
         currency: "",
         language: "",
         captial: "",
-        continent: "Oceana"
+        continent: "Oceana",
+        flag: ""
     }]},
 
 ])
