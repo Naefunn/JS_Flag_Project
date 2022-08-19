@@ -2,8 +2,14 @@ use countryHub;
 db.dropDatabase();
 
 db.countries.insertMany([
-// Europe
-
+{Europe:[{
+        name: "",
+        population: 0,
+        currency: "",
+        language: "",
+        captial: "",
+        continent: "Europe"
+        },
     {
         name: "",
         population: 0,
@@ -11,7 +17,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -19,7 +25,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -27,7 +33,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -35,7 +41,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -43,7 +49,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -51,7 +57,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -59,7 +65,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -67,7 +73,7 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
+        },
     {
         name: "",
         population: 0,
@@ -75,16 +81,8 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Europe"
-    },
-    {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
-        continent: "Europe"
-    },
-// South America
+    }]},
+{southAmerica:[
     {
         name: "",
         population: 0,
@@ -164,9 +162,8 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "South America"
-    },
-// Asia
-    {
+    }]},
+{Asia:[{
         name: "",
         population: 0,
         currency: "",
@@ -245,91 +242,88 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Asia"
-    },
-// Africa 
-    {
+    }]},
+{Africa:[{
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-    {
+        },
+        {
         name: "",
         population: 0,
         currency: "",
         language: "",
         captial: "",
         continent: "Africa"
-    },
-// North and Central America
-
-    {
+    }]},
+{NorthAndCentralAmerica:[{
         name: "",
         population: 0,
         currency: "",
@@ -408,10 +402,8 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "North and Central America"
-    },
-// Oceana 
-
-    {
+    }]},
+    {Oceana:[{
         name: "",
         population: 0,
         currency: "",
@@ -490,6 +482,6 @@ db.countries.insertMany([
         language: "",
         captial: "",
         continent: "Oceana"
-    },
+    }]},
 
 ])
