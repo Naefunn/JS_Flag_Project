@@ -1,10 +1,20 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import './App.css';
 
-function App() {
+import Home from "./continents/Home";
+
+const App = () => {
+  
+  
+  
   return (
-    <div className="App">
-      <p>Hello world!</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={< Home />} />
+      </Routes>
+    </Router>
   );
 }
 
