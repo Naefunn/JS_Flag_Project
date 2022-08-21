@@ -1,16 +1,17 @@
-import React, { memo } from "react";
+import React, { memo, useState } from "react";
 import {
   ZoomableGroup,
   ComposableMap,
   Geographies,
   Geography
 } from "react-simple-maps";
+import ReactTooltip from "react-tooltip";
 
-import "./styles.css";
+import "../styles.css"
 
 const Home = ({}) => {
 
-  const [content, setContent] = useState("");
+  const [content, setTooltipContent] = useState("");
 
   const [link, setLink] = useState("")
 
@@ -29,7 +30,6 @@ const Home = ({}) => {
                     setTooltipContent(`${geo.properties.continent}`);
                   }}
 
-                  onClick={onClick}
                     
                   onMouseLeave={() => {
                     setTooltipContent("");
@@ -55,6 +55,7 @@ const Home = ({}) => {
           </Geographies>
         </ZoomableGroup>
       </ComposableMap>
+      <ReactTooltip>{content}</ReactTooltip>
     </div>
   );
 };
