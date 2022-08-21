@@ -6,7 +6,7 @@ html {
   body {
     margin: 0;
     padding: 0 1.5rem;
-    background-color: lightgray;
+    background-image: linear-gradient(white, aqua);
   }
   
   svg {
@@ -16,11 +16,9 @@ html {
 
   .geography {
     position: relative;
-    left: 215px;
+    left: 120px;
+    align-items: center;
     border-radius: 20px;
-    padding-right: 50px;
-    background-image: linear-gradient(white, aqua);
-    width: 65%;
-    height: 50%;
     margin-top: 10px;
+    width: 80%;
   }

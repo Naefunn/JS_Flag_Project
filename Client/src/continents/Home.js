@@ -12,7 +12,7 @@ const Home = ({}) => {
 
   const [content, setTooltipContent] = useState("");
 
-  const [link, setLink] = useState("")
+  const [link, setLink] = useState(<a href=""/>)
 
 
   return (
@@ -30,7 +30,10 @@ const Home = ({}) => {
                     setTooltipContent(`${geo.properties.continent}`);
                   }}
 
-                    
+                  onClick={() => {
+                    console.log('click')
+                  }}
+
                   onMouseLeave={() => {
                     setTooltipContent("");
                   }}
