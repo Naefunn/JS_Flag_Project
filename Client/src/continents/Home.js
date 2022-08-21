@@ -8,7 +8,13 @@ import {
 
 import "./styles.css";
 
-const Home = ({ setTooltipContent, onClick}) => {
+const Home = ({}) => {
+
+  const [content, setContent] = useState("");
+
+  const [link, setLink] = useState("")
+
+
   return (
     <div className="map" data-tip="">
       <ComposableMap>

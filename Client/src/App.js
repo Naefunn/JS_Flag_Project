@@ -8,6 +8,7 @@ import Home from "./continents/Home";
 import Europe from "./continents/Europe";
 
 const App = () => {
+
   
   
   
@@ -20,5 +21,8 @@ const App = () => {
     </Router>
   );
 }
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 
 export default App;
