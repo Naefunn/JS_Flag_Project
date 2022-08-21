@@ -14,14 +14,13 @@ html {
     vertical-align: middle;
   }
 
-  .map {
+  .geography {
     position: relative;
-    left: 200px;
-    /* border: 2px solid black; */
+    left: 215px;
     border-radius: 20px;
+    padding-right: 50px;
     background-image: linear-gradient(white, aqua);
-    align-items: center;
-    width: 1000px;
-    height: 600px;
+    width: 65%;
+    height: 50%;
+    margin-top: 10px;
   }
-  

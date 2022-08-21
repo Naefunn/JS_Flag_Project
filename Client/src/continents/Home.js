@@ -1,6 +1,5 @@
 import React, { memo, useState } from "react";
 import {
-  ZoomableGroup,
   ComposableMap,
   Geographies,
   Geography
@@ -18,13 +17,9 @@ const Home = ({}) => {
 
   return (
     <>
-    <div>
-      <h4>Home</h4>
-      <p>Welcome to our magical homepage</p>
-    </div>
+
     <div className="map" data-tip="">
-      <ComposableMap>
-        <ZoomableGroup>
+      <ComposableMap className="geography">
           <Geographies geography="/features.json">
             {({ geographies }) =>
               geographies.map((geo) => (
@@ -58,7 +53,6 @@ const Home = ({}) => {
               ))
             }
           </Geographies>
-        </ZoomableGroup>
       </ComposableMap>
       <ReactTooltip>{content}</ReactTooltip>
     </div>
