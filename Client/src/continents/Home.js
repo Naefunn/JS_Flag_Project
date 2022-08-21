@@ -17,6 +17,11 @@ const Home = ({}) => {
 
 
   return (
+    <>
+    <div>
+      <h4>Home</h4>
+      <p>Welcome to our magical homepage</p>
+    </div>
     <div className="map" data-tip="">
       <ComposableMap>
         <ZoomableGroup>
@@ -57,6 +62,7 @@ const Home = ({}) => {
       </ComposableMap>
       <ReactTooltip>{content}</ReactTooltip>
     </div>
+    </>
   );
 };
 
