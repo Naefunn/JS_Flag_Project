@@ -61,22 +61,22 @@ const AfricaQuiz = () => {
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/fr.svg",
+            flagImage: "https://flagcdn.com/gh.svg",
             answerOptions: [
-                {answerText: "France", isCorrect: true},
-                {answerText: "Germany", isCorrect: false},
-                {answerText: "United Kingdom", isCorrect: false},
-                {answerText: "Italy", isCorrect: false}
+                {answerText: "Ghana", isCorrect: true},
+                {answerText: "Senegal", isCorrect: false},
+                {answerText: "South Africa", isCorrect: false},
+                {answerText: "Nigeria", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/nl.svg",
+            flagImage: "https://flagcdn.com/sn.svg",
             answerOptions: [
-                {answerText: "Holland", isCorrect: true},
-                {answerText: "Germany", isCorrect: false},
-                {answerText: "United Kingdom", isCorrect: false},
-                {answerText: "Italy", isCorrect: false}
+                {answerText: "Ghana", isCorrect: false},
+                {answerText: "Kenya", isCorrect: false},
+                {answerText: "Cameroon", isCorrect: false},
+                {answerText: "Senegal", isCorrect: true}
             ]
         }
     ]
