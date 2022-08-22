@@ -1,0 +1,24 @@
+html {
+    font-family: system-ui, sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0 1.5rem;
+    background-image: linear-gradient(white, aqua);
+  }
+  
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .geography {
+    position: relative;
+    left: 120px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 80%;
+  }
