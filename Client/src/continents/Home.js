@@ -1,9 +1,5 @@
 import React, { memo, useState } from "react";
-import {
-  ComposableMap,
-  Geographies,
-  Geography
-} from "react-simple-maps";
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import ReactTooltip from "react-tooltip";
 
 import "../styles.css"
@@ -24,7 +20,7 @@ const Home = ({}) => {
             {({ geographies }) =>
               geographies.map((geo) => (
                 <Geography
-                  key={geo.rsmKey}
+                  key={geo.rsmKey} 
                   geography={geo}
                   onMouseEnter={() => {
                     setTooltipContent(`${geo.properties.continent}`);
