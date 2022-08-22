@@ -1,11 +1,22 @@
-import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+import Home from "./continents/Home";
+import Europe from "./continents/Europe";
 
-    </div>
+const App = () => {
+  
+  
+  
+  return (
+    <Router>
+      <Routes>
+        <Route exact path="/" element={< Home />} />
+        <Route path="/europe" element={< Europe />} />
+      </Routes>
+    </Router>
   );
 }
 
