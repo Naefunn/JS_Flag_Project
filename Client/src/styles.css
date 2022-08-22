@@ -3,7 +3,7 @@ html {
     font-size: 1.25rem;
   }
   
-  body {
+  .water {
     margin: 0;
     padding: 0 1.5rem;
     background-image: linear-gradient(white, aqua);
@@ -16,9 +16,9 @@ html {
 
   .geography {
     position: relative;
+    bottom: 50px;
     left: 120px;
     align-items: center;
     border-radius: 20px;
-    margin-top: 10px;
     width: 80%;
   }
