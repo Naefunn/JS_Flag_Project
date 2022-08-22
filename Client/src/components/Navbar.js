@@ -9,18 +9,14 @@ const Navbar = () => {
     return (
 
         <>  
-
         <div className="Navbar">
             <ul>
                 <li>Home</li>
                 <li>Quiz</li>
             </ul>
         </div>
-       
-         
+        
         </>
-
-    
     )
     
     ;
