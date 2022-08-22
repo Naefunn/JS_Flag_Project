@@ -28920,7 +28920,8 @@
     "type": "MultiPolygon",
     "properties": {
     "continent": "South America",
-    "color": "green"
+    "color": "green",
+    "link": "/southamerica"
     }
     },
     {
@@ -29069,7 +29070,10 @@
     ],
     "type": "MultiPolygon",
     "properties": {
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "color": "orange",
+    "link": "/oceania"
+
     }
     },
     {
@@ -29987,7 +29991,9 @@
     "type": "MultiPolygon",
     "properties": {
     "continent": "Asia",
-    "color": "red"
+    "color": "red",
+    "link": "/asia"
+    
     
 
     }
@@ -30029,7 +30035,9 @@
     ],
     "type": "MultiPolygon",
     "properties": {
-    "continent": "Africa"
+    "continent": "Africa",
+    "link": "/africa"
+    
     }
     },
     {
@@ -30179,7 +30187,8 @@
     "type": "MultiPolygon",
     "properties": {
     "continent": "Oceania",
-    "color": "orange"
+    "color": "orange",
+    "link": "/oceania"
 
     }
     },
@@ -30525,8 +30534,10 @@
     ],
     "type": "MultiPolygon",
     "properties": {
-    "continent": "North America",
-    "color": "purple"
+    "continent": "North & Central America",
+    "color": "purple",
+    "link": "/northandcentralamerica"
+
     }
     },
     {
@@ -30691,7 +30702,9 @@
     "type": "MultiPolygon",
     "properties": {
     "continent": "Europe",
-    "color": "blue"
+    "color": "blue",
+    "link": "/europe"
+
     
     }
     },
@@ -31099,7 +31112,8 @@
     "type": "MultiPolygon",
     "properties": {
     "continent": "Asia",
-    "color": "red"
+    "color": "red",
+    "link": "/asia"
     }
     },
     {
@@ -31140,7 +31154,9 @@
     "type": "MultiPolygon",
     "properties": {
     "continent": "Africa",
-    "color": "yellow"
+    "color": "yellow",
+    "link": "/africa"
+    
     }
     }
     ]
