@@ -17,7 +17,6 @@ import Oceania from "./continents/Oceania";
 const App = () => {
 
   
-  
   return (
     <>
     <Navbar/>

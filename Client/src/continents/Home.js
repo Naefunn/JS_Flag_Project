@@ -1,4 +1,5 @@
-import React, { memo, useState } from "react";
+import React, { memo, useState} from "react";
+import { useNavigate } from "react-router-dom";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import ReactTooltip from "react-tooltip";
 
@@ -8,7 +9,7 @@ const Home = ({}) => {
 
   const [content, setTooltipContent] = useState("");
 
-  const [link, setLink] = useState("")
+  const navigate = useNavigate();
 
 
   return (
@@ -26,9 +27,7 @@ const Home = ({}) => {
                     setTooltipContent(`${geo.properties.continent}`);
                   }}
 
-                  onClick={() => {
-                    console.log('click')
-                  }}
+                  onClick={() => navigate(`${geo.properties.link}`)}
 
                   onMouseLeave={() => {
                     setTooltipContent("");
