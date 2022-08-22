@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import ReactDOM from "react-dom";
 import ReactTooltip from "react-tooltip";
 import "./styles.css";
@@ -12,11 +13,14 @@ import NorthAndCentralAmerica from "./continents/North&CentralAmerica";
 import Asia from "./continents/Asia";
 import Oceania from "./continents/Oceania";
 
+
 const App = () => {
 
   
   
   return (
+    <>
+    <Navbar/>
     <Router>
       <Routes>
         <Route exact path="/" element={< Home />} />
@@ -28,6 +32,7 @@ const App = () => {
         <Route path="/northandcentralamerica" element={< NorthAndCentralAmerica />} />
       </Routes>
     </Router>
+    </>
   );
 }
 
