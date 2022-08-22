@@ -57,13 +57,11 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={< Home />} />
         <Route path="/europe" element={< Continent countries={europeCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
-
-
-        <Route path="/africa" element={< Continent countries={africaCountries}/>} />
-        <Route path="/asia" element={< Continent countries={asiaCountries}/>} />
-        <Route path="/oceania" element={< Continent countries={oceaniaCountries}/>} />
-        <Route path="/southamerica" element={< Continent countries={southAmericaCountries}/>} />
-        <Route path="/northandcentralamerica" element={< Continent countries={northCentralAmericaCountries}/>} />
+        <Route path="/africa" element={< Continent countries={africaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
+        <Route path="/asia" element={< Continent countries={asiaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
+        <Route path="/oceania" element={< Continent countries={oceaniaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
+        <Route path="/southamerica" element={< Continent countries={southAmericaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
+        <Route path="/northandcentralamerica" element={< Continent countries={northCentralAmericaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
       </Routes>
     </Router>
     </>

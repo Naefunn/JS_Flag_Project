@@ -1,8 +1,6 @@
 import React from "react";
 import CountrySelector from "./countrySelect";
 import CountryDetail from "./countryDetail";
-import onCountrySelected from "../App";
-import selectedCountry from "../App";
 
 
 const Continent = ({countries, onCountrySelected, selectedCountry}) => (
