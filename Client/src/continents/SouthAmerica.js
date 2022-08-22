@@ -3,7 +3,7 @@ import SouthAmericaQuiz from "../components/SouthAmericaQuiz";
 
 
 const SouthAmerica = () => (
-  <div className="Section">
+  <div className="section">
     <h4>South America</h4>
     <SouthAmericaQuiz/>
   </div>

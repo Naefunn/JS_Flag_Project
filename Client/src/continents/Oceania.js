@@ -2,7 +2,7 @@ import React from "react";
 import OceaniaQuiz from "../components/OceaniaQuiz";
 
 const Oceania = () => (
-  <div className="Section">
+  <div className="section">
     <h4>Oceania</h4>
     <OceaniaQuiz/>
   </div>

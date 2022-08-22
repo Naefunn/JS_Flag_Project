@@ -4,7 +4,7 @@ import AfricaQuiz from "../components/AfricaQuiz";
 const Africa = () => {
 return (
   <>
-  <div>
+  <div className="section">
     <h4>Africa</h4>
     <AfricaQuiz/>
   </div>

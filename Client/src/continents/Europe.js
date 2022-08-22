@@ -6,7 +6,7 @@ const Europe = () => {
 
   return(
     <>
-    <div>
+    <div className="section">
       <h4>Europe</h4>
       <EuropeQuiz/>
     </div>

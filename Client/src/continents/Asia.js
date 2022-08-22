@@ -7,7 +7,7 @@ const Asia = () => {
 
   return (
     <>
-  <div>
+  <div className="section">
     <h4>Asia</h4>
   </div>
   <AsiaQuiz/>
