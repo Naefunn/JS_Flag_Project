@@ -1,20 +1,53 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+
 import ReactDOM from "react-dom";
 import ReactTooltip from "react-tooltip";
+
 import "./styles.css";
 import './App.css';
+
+import Navbar from "./components/Navbar";
 import Home from "./continents/Home";
-import Europe from "./continents/Europe";
-import Africa from "./continents/Africa";
-import SouthAmerica from "./continents/SouthAmerica";
-import NorthAndCentralAmerica from "./continents/North&CentralAmerica";
-import Asia from "./continents/Asia";
-import Oceania from "./continents/Oceania";
+import Continent from "./continents/Continent";
+// import CountrySelector from './continents/countrySelect';
+// import CountryDetail from './continents/countryDetail';
 
 
 const App = () => {
+
+    const [countries, setCountries] = useState([]);
+    const [europeCountries, setEuropeCountries] = useState([]);
+    const [africaCountries, setAfricaCountries] = useState([]);
+    const [asiaCountries, setAsiaCountries] = useState([]);
+    const [southAmericaCountries, setSouthAmericaCountries] = useState([]);
+    const [oceaniaCountries, setOceaniaCountries] = useState([]);
+    const [northCentralAmericaCountries, setNorthCentralAmericaCountries] = useState([]);
+
+    const [selectedCountry, setSelectedCountry] = useState("");
+
+    useEffect(() => {
+        getCountries();
+    }, []);
+
+    const getCountries = function(){
+        fetch("http://localhost:9000/api/countries")
+        .then(res => res.json())
+        .then(countries => {
+          setCountries(countries)
+          setEuropeCountries(countries[0].Europe)
+          setSouthAmericaCountries(countries[1].southAmerica)
+          setAsiaCountries(countries[2].Asia)
+          setAfricaCountries(countries[3].Africa)
+          setNorthCentralAmericaCountries(countries[4].NorthAndCentralAmerica)
+          setOceaniaCountries(countries[5].Oceana)
+        })
+    }
+
+    const onCountrySelected = (country) =>{
+        setSelectedCountry(country);
+    }
 
   
   return (
@@ -23,19 +56,23 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={< Home />} />
-        <Route path="/europe" element={< Europe />} />
-        <Route path="/africa" element={< Africa />} />
-        <Route path="/asia" element={< Asia />} />
-        <Route path="/oceania" element={< Oceania />} />
-        <Route path="/southamerica" element={< SouthAmerica />} />
-        <Route path="/northandcentralamerica" element={< NorthAndCentralAmerica />} />
+        <Route path="/europe" element={< Continent countries={europeCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
+
+
+        <Route path="/africa" element={< Continent countries={africaCountries}/>} />
+        <Route path="/asia" element={< Continent countries={asiaCountries}/>} />
+        <Route path="/oceania" element={< Continent countries={oceaniaCountries}/>} />
+        <Route path="/southamerica" element={< Continent countries={southAmericaCountries}/>} />
+        <Route path="/northandcentralamerica" element={< Continent countries={northCentralAmericaCountries}/>} />
       </Routes>
     </Router>
     </>
   );
+  
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<App />, rootElement);
 
 export default App;
