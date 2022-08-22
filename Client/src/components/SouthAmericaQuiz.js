@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './Quiz.css';
 
 const SouthAmericaQuiz = () => {
 
@@ -33,15 +34,15 @@ const SouthAmericaQuiz = () => {
             questionText: "What country does this flag belong to?",
             flagImage: "https://flagcdn.com/br.svg",
             answerOptions: [
-                {answerText: "Brazil", isCorrect: false},
+                {answerText: "Brazil", isCorrect: true},
                 {answerText: "Argentina", isCorrect: false},
-                {answerText: "Columbia", isCorrect: true},
+                {answerText: "Columbia", isCorrect: false},
                 {answerText: "Chile", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/gb.svg",
+            flagImage: "https://flagcdn.com/ve.svg",
             answerOptions: [
                 {answerText: "Brazil", isCorrect: false},
                 {answerText: "Columbia", isCorrect: false},
@@ -51,7 +52,7 @@ const SouthAmericaQuiz = () => {
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/gb.svg",
+            flagImage: "https://flagcdn.com/pe.svg",
             answerOptions: [
                 {answerText: "Brazil", isCorrect: false},
                 {answerText: "Argentina", isCorrect: false},
@@ -61,21 +62,21 @@ const SouthAmericaQuiz = () => {
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/gb.svg",
+            flagImage: "https://flagcdn.com/co.svg",
             answerOptions: [
-                {answerText: "Bolivia", isCorrect: false},
+                {answerText: "Columbia", isCorrect: true},
                 {answerText: "Argentina", isCorrect: false},
-                {answerText: "Ecuador", isCorrect: true},
+                {answerText: "Ecuador", isCorrect: false},
                 {answerText: "Chile", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/gb.svg",
+            flagImage: "https://flagcdn.com/ar.svg",
             answerOptions: [
                 {answerText: "Paraguay", isCorrect: false},
-                {answerText: "Argentina", isCorrect: false},
-                {answerText: "Ecuador", isCorrect: true},
+                {answerText: "Argentina", isCorrect: true},
+                {answerText: "Ecuador", isCorrect: false},
                 {answerText: "Chile", isCorrect: false}
             ]
         }
@@ -84,13 +85,16 @@ const SouthAmericaQuiz = () => {
 return (
     <>
     <div>{score}</div>
-    <div className='question-text'>{questions[currentQuestion].questionText}</div>
-    <img src={questions[currentQuestion].flagImage} className="question-image"/>
-    <div className='answer-section'>
-	{questions[currentQuestion].answerOptions.map((answerOption, index) => (
-		<button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-	))}
-</div>
+    <div className="quiz-section">
+        <div className='question-text'>{questions[currentQuestion].questionText}</div>
+        <img src={questions[currentQuestion].flagImage} className="question-image"/>
+        <div className='answer-section'>
+        {questions[currentQuestion].answerOptions.map((answerOption, index) => (
+            <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+        ))}
+        </div>
+
+    </div>
     
     </>
 )
