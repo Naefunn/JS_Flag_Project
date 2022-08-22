@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 
-
 const EuropeQuiz = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);

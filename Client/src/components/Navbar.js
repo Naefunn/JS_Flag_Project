@@ -11,8 +11,7 @@ const Navbar = () => {
         <>  
         <div className="Navbar">
             <ul>
-                <li>Home</li>
-                <li>Quiz</li>
+                <li><img className="home" src="https://cdn-icons-png.flaticon.com/512/25/25694.png"/></li>
             </ul>
         </div>
         
