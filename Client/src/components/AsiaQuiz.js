@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const AfricaQuiz = () => {
+const AsiaQuiz = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
@@ -31,52 +31,52 @@ const AfricaQuiz = () => {
     const questions = [
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/za.svg",
+            flagImage: "https://flagcdn.com/jp.svg",
             answerOptions: [
-                {answerText: "Nigeria", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "South Africa", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false}
+                {answerText: "China", isCorrect: false},
+                {answerText: "India", isCorrect: false},
+                {answerText: "Japan", isCorrect: true},
+                {answerText: "Thailand", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/ng.svg",
+            flagImage: "https://flagcdn.com/in.svg",
             answerOptions: [
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: true},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "China", isCorrect: false},
+                {answerText: "South Korea", isCorrect: false},
+                {answerText: "India", isCorrect: true},
+                {answerText: "Vietnam", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/ma.svg",
+            flagImage: "https://flagcdn.com/th.svg",
             answerOptions: [
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Morocco", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "India", isCorrect: false},
+                {answerText: "Thailand", isCorrect: true},
+                {answerText: "Qatar", isCorrect: false},
+                {answerText: "Iran", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/gh.svg",
+            flagImage: "https://flagcdn.com/qa.svg",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "South Africa", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: false}
+                {answerText: "Qatar", isCorrect: true},
+                {answerText: "India", isCorrect: false},
+                {answerText: "Pakistand", isCorrect: false},
+                {answerText: "Iran", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/sn.svg",
+            flagImage: "https://flagcdn.com/cn.svg",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "Senegal", isCorrect: true}
+                {answerText: "India", isCorrect: false},
+                {answerText: "South Korea", isCorrect: false},
+                {answerText: "Vietnam", isCorrect: false},
+                {answerText: "China", isCorrect: true}
             ]
         }
     ]
@@ -96,4 +96,4 @@ return (
 )
 };
 
-export default AfricaQuiz;
+export default AsiaQuiz;

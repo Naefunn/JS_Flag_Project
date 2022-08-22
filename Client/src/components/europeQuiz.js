@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const AfricaQuiz = () => {
+const EuropeQuiz = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
@@ -31,52 +31,52 @@ const AfricaQuiz = () => {
     const questions = [
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/za.svg",
+            flagImage: "https://flagcdn.com/gb.svg",
             answerOptions: [
-                {answerText: "Nigeria", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "South Africa", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false}
+                {answerText: "France", isCorrect: false},
+                {answerText: "Germany", isCorrect: false},
+                {answerText: "United Kingdom", isCorrect: true},
+                {answerText: "Italy", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/ng.svg",
+            flagImage: "https://flagcdn.com/es.svg",
             answerOptions: [
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: true},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "France", isCorrect: false},
+                {answerText: "Germany", isCorrect: false},
+                {answerText: "Spain", isCorrect: true},
+                {answerText: "Italy", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/ma.svg",
+            flagImage: "https://flagcdn.com/de.svg",
             answerOptions: [
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Morocco", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "Holland", isCorrect: false},
+                {answerText: "Germany", isCorrect: true},
+                {answerText: "Portugal", isCorrect: false},
+                {answerText: "France", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/gh.svg",
+            flagImage: "https://flagcdn.com/fr.svg",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "South Africa", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: false}
+                {answerText: "France", isCorrect: true},
+                {answerText: "Germany", isCorrect: false},
+                {answerText: "United Kingdom", isCorrect: false},
+                {answerText: "Italy", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/sn.svg",
+            flagImage: "https://flagcdn.com/nl.svg",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "Senegal", isCorrect: true}
+                {answerText: "Holland", isCorrect: true},
+                {answerText: "Germany", isCorrect: false},
+                {answerText: "United Kingdom", isCorrect: false},
+                {answerText: "Italy", isCorrect: false}
             ]
         }
     ]
@@ -96,4 +96,4 @@ return (
 )
 };
 
-export default AfricaQuiz;
+export default EuropeQuiz;
