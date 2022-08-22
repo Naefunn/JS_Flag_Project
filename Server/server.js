@@ -18,9 +18,9 @@ MongoClient.connect('mongodb://127.0.0.1:27017', { useUnifiedTopology: true })
 
 
     app.use('/api/countries', countriesRouter);
-  })
-  .catch(console.error);
+    })
+    .catch(console.error);
 
 app.listen(9000, function() {
-  console.log(`Country server running on port ${this.address().port}`);
+    console.log(`Country server running on port ${this.address().port}`);
 });
