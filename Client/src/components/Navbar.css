@@ -3,8 +3,6 @@
     /* background-color: aquamarine; */
 }
 
-
-
 ul {
     display: flex;
     justify-content: space-evenly;
@@ -15,4 +13,13 @@ ul {
 li {
     list-style: none;
     padding-right: 30px;
+}
+
+.home {
+    width: 25px;
+    height: 25px;
+}
+
+.home:hover {
+    transform:scale(1.1)
 }
