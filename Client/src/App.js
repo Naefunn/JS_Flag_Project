@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import ReactDOM from "react-dom";
+import ReactTooltip from "react-tooltip";
+import "./styles.css";
 import './App.css';
-
 import Home from "./continents/Home";
 import Europe from "./continents/Europe";
 import Africa from "./continents/Africa";
@@ -12,7 +13,7 @@ import Asia from "./continents/Asia";
 import Oceania from "./continents/Oceania";
 
 const App = () => {
-  
+
   
   
   return (
@@ -29,5 +30,8 @@ const App = () => {
     </Router>
   );
 }
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 
 export default App;
