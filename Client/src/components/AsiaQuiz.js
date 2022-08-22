@@ -71,12 +71,12 @@ const AsiaQuiz = () => {
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/sn.svg",
+            flagImage: "https://flagcdn.com/cn.svg",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "Senegal", isCorrect: true}
+                {answerText: "India", isCorrect: false},
+                {answerText: "South Korea", isCorrect: false},
+                {answerText: "Vietnam", isCorrect: false},
+                {answerText: "China", isCorrect: true}
             ]
         }
     ]
