@@ -14,7 +14,7 @@ const Home = ({}) => {
   return (
     <>
 
-    <div className="map" data-tip="">
+    <div className="water" data-tip="">
       <ComposableMap className="geography">
           <Geographies geography="/features.json">
             {({ geographies }) =>
