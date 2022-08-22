@@ -9,7 +9,7 @@ db.countries.insertMany([
         language: "English",
         captial: "London",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/gb.svg"
         },
         {
         name: "France",
@@ -18,7 +18,7 @@ db.countries.insertMany([
         language: "French",
         captial: "Paris",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/fr.svg"
         },
         {
         name: "Spain",
@@ -27,7 +27,7 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "Madrid",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/es.svg"
         },
         {
         name: "Germany",
@@ -36,7 +36,7 @@ db.countries.insertMany([
         language: "German",
         captial: "Berlin",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/de.svg"
         },
         {
         name: "Netherlands",
@@ -45,7 +45,7 @@ db.countries.insertMany([
         language: "Dutch",
         captial: "Amsterdam",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/nl.svg"
         },
         {
         name: "Italy",
@@ -54,7 +54,7 @@ db.countries.insertMany([
         language: "Italian",
         captial: "Milan",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/it.svg"
         },
         {
         name: "Portugal",
@@ -63,7 +63,7 @@ db.countries.insertMany([
         language: "Portuguese",
         captial: "Lisbon",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/pt.svg"
         },
         {
         name: "Greece",
@@ -72,7 +72,7 @@ db.countries.insertMany([
         language: "Greek",
         captial: "Athens",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/gr.svg"
         },
         {
         name: "Sweden",
@@ -81,7 +81,7 @@ db.countries.insertMany([
         language: "Swedish",
         captial: "Stockholm",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/se.svg"
         },
         {
         name: "Ireland",
@@ -90,7 +90,7 @@ db.countries.insertMany([
         language: "Irish/English",
         captial: "",
         continent: "Europe",
-        flag: ""
+        flag: "https://flagcdn.com/ie.svg"
     }]},
 {southAmerica:[
     {
@@ -100,7 +100,7 @@ db.countries.insertMany([
         language: "Portuguese",
         captial: "Brasília",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/br.svg"
     },
     {
         name: "Colombia",
@@ -109,7 +109,7 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "Bogotá",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/co.svg"
     },
     {
         name: "Argentina",
@@ -118,7 +118,7 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "Buenos Aires",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/ar.svg"
     },
     {
         name: "Peru",
@@ -127,7 +127,7 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "Lima",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/pe.svg"
     },
     {
         name: "Chile",
@@ -136,16 +136,16 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "Santiago",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/cl.svg"
     },
     {
-        name: "Venezuala",
+        name: "Venezuela",
         population: 28200000,
         currency: "Venezuelan Bolívar",
         language: "Spanish",
         captial: "Caracas",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/ve.svg"
     },
     {
         name: "Ecuador",
@@ -154,7 +154,7 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "Quito",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/ec.svg"
     },
     {
         name: "Bolivia",
@@ -163,7 +163,7 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "La Paz",
         continent: "South America",
-        flag: ""
+        flag: "https://flagcdn.com/bo.svg"
     },
     {
         name: "Uruguay",
@@ -172,16 +172,16 @@ db.countries.insertMany([
         language: "Spanish",
         captial: "Montevideo",
         continent: "South American",
-        flag: ""
+        flag: "https://flagcdn.com/uy.svg"
     },
     {
         name: "Paraguay",
         population: 7300000,
-        currency: "",
+        currency: "Guarani",
         language: "Spanish",
         captial: "Asunción",
         continent: "South America",
-        flag: "Guaraní"
+        flag: "https://flagcdn.com/py.svg"
     }]},
 {Asia:[{
         name: "Japan",
@@ -190,7 +190,7 @@ db.countries.insertMany([
         language: "Japanese",
         captial: "Tokyo",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/jp.svg"
     },
     {
         name: "China",
@@ -199,7 +199,7 @@ db.countries.insertMany([
         language: "Chinese",
         captial: "Beijing",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/cn.svg"
     },
     {
         name: "India",
@@ -208,7 +208,7 @@ db.countries.insertMany([
         language: "Hindi",
         captial: "New Deli",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/in.svg"
     },
     {
         name: "Thailand",
@@ -217,7 +217,7 @@ db.countries.insertMany([
         language: "Thai",
         captial: "Bangkok",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/th.svg"
     },
     {
         name: "Vietnam",
@@ -226,7 +226,7 @@ db.countries.insertMany([
         language: "Vietnamese",
         captial: "Hanoi",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/vn.svg"
     },
     {
         name: "South Korea",
@@ -235,7 +235,7 @@ db.countries.insertMany([
         language: "Korean",
         captial: "Seoul",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/kr.svg"
     },
     {
         name: "Pakistan",
@@ -244,7 +244,7 @@ db.countries.insertMany([
         language: "Punjabi",
         captial: "Islamabad",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/pk.svg"
     },
     {
         name: "Iran",
@@ -253,7 +253,7 @@ db.countries.insertMany([
         language: "Persian",
         captial: "Tehran",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/ir.svg"
     },
     {
         name: "Qatar",
@@ -262,7 +262,7 @@ db.countries.insertMany([
         language: "Arabic",
         captial: "Doha",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/qa.svg"
     },
     {
         name: "Jordan",
@@ -271,277 +271,277 @@ db.countries.insertMany([
         language: "Arabic",
         captial: "Amman",
         continent: "Asia",
-        flag: ""
+        flag: "https://flagcdn.com/jo.svg"
     }]},
 {Africa:[{
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "South Africa",
+        population: 60140000,
+        currency: "South African rand",
+        language: "English",
+        captial: "Cape Town",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/za.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Nigeria",
+        population: 218500000,
+        currency: "Naira",
+        language: "Hausa, Yaruba",
+        captial: "Abuja",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/ng.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Cameroon",
+        population: 26500000,
+        currency: "Central African franc",
+        language: "French",
+        captial: "Yaoundé",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/cm.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Senegal",
+        population: 17190000,
+        currency: "West African franc",
+        language: "French",
+        captial: "Dakar",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/sn.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Ghana",
+        population: 32103000,
+        currency: "Cedi",
+        language: "English",
+        captial: "Accra",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/gh.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Kenya",
+        population: 54500000,
+        currency: "Kenyan Shilling",
+        language: "Swahili",
+        captial: "Nairobi",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/ke.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Morocco",
+        population: 37110000,
+        currency: "Dirham",
+        language: "Arabic",
+        captial: "Rabat",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/ma.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Ethiopia",
+        population: 123380000,
+        currency: "Birr",
+        language: "Afar",
+        captial: "Addis Ababa",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/et.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Ivory Coast",
+        population: 29300000,
+        currency: "West African franc",
+        language: "French",
+        captial: "	Yamoussoukro",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/ci.svg"
         },
         {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Burkina Faso",
+        population: 21500000,
+        currency: "West African franc",
+        language: "French",
+        captial: "Ouagadougou",
         continent: "Africa",
-        flag: ""
+        flag: "https://flagcdn.com/bf.svg"
     }]},
 {NorthAndCentralAmerica:[{
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "United States",
+        population: 331890000,
+        currency: "U.S dollar",
+        language: "English",
+        captial: "Wahington, D.C.",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/us.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Mexico",
+        population: 126000000,
+        currency: "Mexican Peso",
+        language: "Spanish",
+        captial: "Mexico City",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/mx.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Guatemala",
+        population: 17260000,
+        currency: "Quetzal",
+        language: "Spanish",
+        captial: "Guatemala City",
         continent: "North and Central America",
-        flag: ""
+        flag:  "https://flagcdn.com/gt.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Honduras",
+        population: 10270000,
+        currency: "Lempira",
+        language: "Spanish",
+        captial: "Tegucigalpa",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/hn.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Costa Rica",
+        population: 5000000,
+        currency: "Costa Rican Colón",
+        language: "Spanish",
+        captial: "San José",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/cr.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Panama",
+        population: 4400000,
+        currency: "Balboa",
+        language: "Spanish",
+        captial: "Panama City",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/pa.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Belize",
+        population: 419200,
+        currency: "Belize dollar",
+        language: "English",
+        captial: "Belmopan",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/bz.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Canada",
+        population: 38650000,
+        currency: "Canadian dollar",
+        language: "English",
+        captial: "Ottawa",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/ca.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Nicaragua",
+        population: 6486000,
+        currency: "Córdoba",
+        language: "Spanish",
+        captial: "Managua",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/ni.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "El Salvador",
+        population: 6800000,
+        currency: "Salvadoran colón",
+        language: "Spanish",
+        captial: "San Salvador",
         continent: "North and Central America",
-        flag: ""
+        flag: "https://flagcdn.com/sv.svg"
     }]},
-    {Oceana:[{
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+{Oceana:[{
+        name: "Australia",
+        population: 25500000,
+        currency: "Australian dollar",
+        language: "English",
+        captial: "Canberra",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/au.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "New Zealand",
+        population: 5100000,
+        currency: "New Zealand dollar",
+        language: "English",
+        captial: "Wellington",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/nz.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Fiji",
+        population: 926200,
+        currency: "Fijian dollar",
+        language: "Fijian",
+        captial: "Suva",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/fj.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Samoa",
+        population: 202500,
+        currency: "Tālā",
+        language: "Samoan",
+        captial: "Apia",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/ws.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Papua New Guinea",
+        population: 8935000,
+        currency: "Kina",
+        language: "English",
+        captial: "Port Moresby",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/pg.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Tonga",
+        population: 100000,
+        currency: "	Paʻanga",
+        language: "Tongan",
+        captial: "Nukuʻalofa",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/to.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Palau",
+        population: 18000,
+        currency: "US dollar",
+        language: "Palauan",
+        captial: "Ngerulmud",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/pw.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Solomon Islands",
+        population: 707000,
+        currency: "Solomon Island dollar",
+        language: "English",
+        captial: "Honiara",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/sb.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Nauru",
+        population: 10800,
+        currency: "Australian dollar",
+        language: "Nauruan",
+        captial: "Yaren",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/nr.svg"
     },
     {
-        name: "",
-        population: 0,
-        currency: "",
-        language: "",
-        captial: "",
+        name: "Marshall Islands",
+        population: 61900,
+        currency: "US dollar",
+        language: "Marshallese",
+        captial: "Delap-Uliga-Djarrit",
         continent: "Oceana",
-        flag: ""
+        flag: "https://flagcdn.com/mh.svg"
     }]},
 
 ])
