@@ -8,7 +8,7 @@ const Home = ({}) => {
 
   const [content, setTooltipContent] = useState("");
 
-  const [link, setLink] = useState(<a href=""/>)
+  const [link, setLink] = useState("")
 
 
   return (

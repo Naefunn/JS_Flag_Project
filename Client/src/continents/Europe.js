@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => (
+const Europe = () => (
   <div>
     <h4>Europe</h4>
     <p>These be them countries mate:</p>
@@ -8,4 +8,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Europe;
