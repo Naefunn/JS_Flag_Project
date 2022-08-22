@@ -28,6 +28,7 @@ router.get('/:id', (req, res) => {
         res.json({ status: 500, error: err });
         });
     });
+    return router;
 };
 
-modules.exports = createRouter;
+module.exports = createRouter;
