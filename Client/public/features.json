@@ -29420,6 +29420,7 @@
     "properties": {
     "continent": "North America",
     "color": "blue"
+
     
     }
     },
@@ -30037,6 +30038,7 @@
     "properties": {
     "continent": "Africa",
     "link": "/africa"
+    
     
     }
     },

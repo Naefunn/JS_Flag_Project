@@ -1,31 +1,48 @@
 import { useState, useEffect } from "react";
 
+
+
 const EuropeQuiz = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [nextQuestion, setNextQuestion] = useState(currentQuestion + 1)
     const [score, setScore] = useState(0);
+    const [message, setMessage] = useState("")
+
+    const [time, setTime] = useState(20) //remaining time
+    const [active, setActive] = useState(false)
 
 
     const handleAnswerButtonClick = (answerOption) => {
 
         if (answerOption){
             setScore(score + 1);
-        };
-
-        if (answerOption){
-            alert("This is correct");
+            setMessage("Well Done!")
+            
         } else {
-            alert("This is wrong, try again!");
+            setMessage("Not quite! Try again!")
             setCurrentQuestion = currentQuestion
+            
         };
         const nextQuestion = currentQuestion + 1;
         setCurrentQuestion(nextQuestion);
         if (nextQuestion < questions.length) {
             setCurrentQuestion(nextQuestion);
         } else {
-            alert('you reached the end of the quiz');
+            setMessage('you reached the end of the quiz');
         }
     };
+
+
+    const timer = useEffect(() => {
+        if (time === 0 ) {
+            setMessage('You reached the end of the quiz!')
+        }
+
+        if (time > 0) setTimeout(() => setTime(time - 1), 1000)
+
+      }, [time]);
+
 
 
     const questions = [
@@ -91,9 +108,10 @@ return (
         {questions[currentQuestion].answerOptions.map((answerOption, index) => (
             <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)} className="quiz-button">{answerOption.answerText}</button>
         ))}
+          <div class="timer"></div>
         </div>
-
     </div>
+    <div className="message">{message}</div>
     
     </>
 )

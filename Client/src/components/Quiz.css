@@ -54,3 +54,59 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
+
+.timer {
+    height: 50px;
+    background: green;
+    border-radius: 10px;
+    width: 100%;
+    animation: 20s timer linear;
+  }
+  
+  @keyframes timer {
+    100% {
+      width: 0%;
+      background: red;
+    }
+    50% {
+      background: orange;
+    }
+    0% {
+      width: 100%;
+    }
+  }
+
+
+  
+.message {
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    z-index: 1;
+}
+
+@keyframes blinker {
+    50% {
+      background-color: blue;
+    }
+  }
+
+
+  .message {
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    z-index: 1;
+    color: red;
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      color: blue;
+    }
+  }
+  
+  

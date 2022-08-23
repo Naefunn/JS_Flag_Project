@@ -23,7 +23,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={< Home />} />
-        <Route path="/europe" element={< Europe />} />
+        <Route path="/europe/" element={< Europe />} />
         <Route path="/africa" element={< Africa />} />
         <Route path="/asia" element={< Asia />} />
         <Route path="/oceania" element={< Oceania />} />
