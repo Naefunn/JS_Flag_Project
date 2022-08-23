@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import './Quiz.css'
 
 
-const AfricaQuiz = () => {
+const NorthAndCentralAmericaQuiz = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [nextQuestion, setNextQuestion] = useState(currentQuestion + 1)
@@ -38,55 +38,56 @@ const AfricaQuiz = () => {
     const questions = [
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/za.svg",
+            flagImage: "https://flagcdn.com/us.svg",
             answerOptions: [
-                {answerText: "Nigeria", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "South Africa", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false}
+                {answerText: "USA", isCorrect: true},
+                {answerText: "Canada", isCorrect: false},
+                {answerText: "Mexico", isCorrect: false},
+                {answerText: "Jamaica", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/ng.svg",
+            flagImage: "https://flagcdn.com/mx.svg",
             answerOptions: [
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: true},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "USA", isCorrect: false},
+                {answerText: "Canada", isCorrect: false},
+                {answerText: "Mexico", isCorrect: true},
+                {answerText: "Jamaica", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/ma.svg",
+            flagImage: "https://flagcdn.com/ca.svg",
             answerOptions: [
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Morocco", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "USA", isCorrect: false},
+                {answerText: "Canada", isCorrect: true},
+                {answerText: "Mexico", isCorrect: false},
+                {answerText: "Jamaica", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/gh.svg",
+            flagImage: "https://flagcdn.com/bz.svg",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "South Africa", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: false}
+                {answerText: "USA", isCorrect: false},
+                {answerText: "Canada", isCorrect: false},
+                {answerText: "Belize", isCorrect: true},
+                {answerText: "Jamaica", isCorrect: false}
             ]
         },
         {
             questionText: "What country does this flag belong to?",
-            flagImage: "https://flagcdn.com/sn.svg",
+            flagImage: "https://flagcdn.com/sv.svg",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "Senegal", isCorrect: true}
+                {answerText: "El Salvador", isCorrect: true},
+                {answerText: "Canada", isCorrect: false},
+                {answerText: "Mexico", isCorrect: false},
+                {answerText: "Jamaica", isCorrect: false}
             ]
         }
     ]
+
 
 return (
     <>
@@ -100,7 +101,7 @@ return (
         ))}
           <div class="timer"></div>
         </div>
-       <a href="/Europe"><button className="quiz-button">Play Again!</button></a> 
+       <a href="/NorthandCentralAmerica/quiz"><button className="quiz-button">Play Again!</button></a> 
     </div>
     <div className="message">{message}</div>
     
@@ -108,4 +109,4 @@ return (
 )
 };
 
-export default AfricaQuiz;
+export default NorthAndCentralAmericaQuiz;

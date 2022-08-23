@@ -100,7 +100,7 @@ return (
         ))}
           <div class="timer"></div>
         </div>
-       <a href="/Europe"><button className="quiz-button">Play Again!</button></a> 
+       <a href="/Africa/quiz"><button className="quiz-button">Play Again!</button></a> 
     </div>
     <div className="message">{message}</div>
     
