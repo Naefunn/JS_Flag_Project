@@ -1,4 +1,3 @@
-
 .section > h4 {
     text-align: center;
     font-size: 25px;
@@ -52,10 +51,47 @@
     background-color: lightgreen;
     border: 1px solid lightgreen;
     transform: scale(1.1);
+    animation: blinker 2s linear infinite;
     cursor: pointer;
 }
 
 
 
+.timer {
+    height: 50px;
+    background: green;
+    border-radius: 10px;
+    width: 100%;
+    animation: 20s timer linear;
+  }
+  
+  @keyframes timer {
+    100% {
+      width: 0%;
+      background: red;
+    }
+    50% {
+      background: orange;
+    }
+    0% {
+      width: 100%;
+    }
+  }
 
 
+
+
+  .message {
+    position: relative;
+    bottom: 145px;
+    text-align: center;
+    z-index: 1;
+    color: red;
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      color: blue;
+    }
+  }
