@@ -52,6 +52,7 @@
     background-color: lightgreen;
     border: 1px solid lightgreen;
     transform: scale(1.1);
+    animation: blinker 2s linear infinite;
     cursor: pointer;
 }
 
@@ -79,24 +80,11 @@
   }
 
 
-  
-.message {
-    position: relative;
-    bottom: 100px;
-    text-align: center;
-    z-index: 1;
-}
-
-@keyframes blinker {
-    50% {
-      background-color: blue;
-    }
-  }
 
 
   .message {
     position: relative;
-    bottom: 100px;
+    bottom: 145px;
     text-align: center;
     z-index: 1;
     color: red;

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import './Quiz.css'
 
 
 const EuropeQuiz = () => {
@@ -24,6 +24,8 @@ const EuropeQuiz = () => {
             setCurrentQuestion = currentQuestion
             
         };
+
+
         const nextQuestion = currentQuestion + 1;
         setCurrentQuestion(nextQuestion);
         if (nextQuestion < questions.length) {
@@ -110,6 +112,7 @@ return (
         ))}
           <div class="timer"></div>
         </div>
+       <a href="/europe"><button className="quiz-button">Play Again!</button></a> 
     </div>
     <div className="message">{message}</div>
     
