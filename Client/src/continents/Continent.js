@@ -16,13 +16,17 @@ const ContinentList = ({countries, continentName}) => {
 
   return (
     <>
-      <div className="country-details">
-        {countryNodes}
-      </div>
-
-      <Link to={`/${continentName}/quiz`}><button>Flag quiz</button></Link>
+    
+    <div className="country-details">
+      {countryNodes}
+    </div>
+    <div className="flag-section">
+      <h3>Can you remeber all the Flags? Take the Quiz!</h3>
+      <Link to={`/${continentName}/quiz`}><button className="flag-button">Flag quiz</button></Link>
+    </div>
 
     </>
+
   )
 
 };

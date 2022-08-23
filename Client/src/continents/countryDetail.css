@@ -3,25 +3,50 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .individual-country {
     border: solid 2px black;
     flex: 0.33333 1 0px;
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,121,99,1) 30%, rgba(0,212,255,1) 100%);}
-
 .country-name {
     text-align: center;
 }
-
 .country-text {
     justify-content: center;
 }
-
 .country-flag {
     width: 250px;
     height: 150px;
 }
-
 .country-name {
     margin: 0px;
+}
+.flag-section {
+background-color: cadetblue;
+position: relative;
+left: 1020px;
+bottom: 250px;
+overflow-wrap:normal;
+text-align: center;
+border: 2px solid black;
+border-radius: 10px;
+width:350px;
+padding: 10px;
+}
+.flag-button {
+font-size: 15px;
+width: 100px;
+height: 40px;
+background-color: aquamarine;
+border-radius: 10px;
+border: 2px solid aquamarine;
+animation: flag-blinker 2s linear infinite;
+}
+@keyframes flag-blinker {
+    50% {
+      background-color:blueviolet;
+    }
+}
+.flag-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

@@ -9,7 +9,7 @@ const AfricaQuiz = () => {
     const [score, setScore] = useState(0);
     const [message, setMessage] = useState("")
 
-    const [time, setTime] = useState(20) //remaining time
+    const [time, setTime] = useState(15) //remaining time
     const [active, setActive] = useState(false)
 
 
@@ -32,8 +32,16 @@ const AfricaQuiz = () => {
             setCurrentQuestion(nextQuestion);
         } else {
             setMessage('you reached the end of the quiz');
+            setCurrentQuestion(4)
         }
     };
+
+    const timer = useEffect(() => {
+        if (time === 0 ) {
+            setMessage('You reached the end of the quiz!')
+        }
+        if (time > 0) setTimeout(() => setTime(time - 1), 1000)
+      }, [time]);
 
     const questions = [
         {
