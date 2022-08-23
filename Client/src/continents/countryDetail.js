@@ -13,7 +13,7 @@ const CountryDetail = ({country}) => {
                 <p>Currency: {country.currency}</p>
                 <p>Language: {country.language}</p>
                 <p>Capital: {country.captial}</p>
-                <img src={country.flag} width="200" height="150"/>
+                <img src={country.flag} width="200" height="150" className='country-flag'/>
             </li>
           </ul>
         </div>
