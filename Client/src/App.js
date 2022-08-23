@@ -7,6 +7,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./styles.css";
 import './App.css';
+import AfricaQuiz from './components/AfricaQuiz';
+import AsiaQuiz from './components/AsiaQuiz';
+import EuropeQuiz from './components/EuropeQuiz';
+import NorthAmericaQuiz from './components/NorthAndCentralAmericaQuiz';
+import OceaniaQuiz from './components/OceaniaQuiz';
+import SouthAmericaQuiz from './components/SouthAmericaQuiz';
 
 import Navbar from "./components/Navbar";
 import Home from "./continents/Home";
@@ -48,12 +54,18 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={< Home />} />
-        <Route path="/europe" element={< Continent countries={europeCountries} />} />
-        <Route path="/africa" element={< Continent countries={africaCountries} />} />
-        <Route path="/asia" element={< Continent countries={asiaCountries} />} />
-        <Route path="/oceania" element={< Continent countries={oceaniaCountries} />} />
-        <Route path="/southamerica" element={< Continent countries={southAmericaCountries} />} />
-        <Route path="/northandcentralamerica" element={< Continent countries={northCentralAmericaCountries} />} />
+        <Route path="/Europe" element={< Continent countries={europeCountries} />} />
+        <Route path="/Africa" element={< Continent countries={africaCountries} />} />
+        <Route path="/Asia" element={< Continent countries={asiaCountries} />} />
+        <Route path="/Oceania" element={< Continent countries={oceaniaCountries} />} />
+        <Route path="/southAmerica" element={< Continent countries={southAmericaCountries} />} />
+        <Route path="/NorthandCentralAmerica" element={< Continent countries={northCentralAmericaCountries} />} />
+        <Route path="/Europe/quiz" element={< EuropeQuiz quiz={EuropeQuiz} />} />
+        <Route path="/Africa/quiz" element={< AfricaQuiz quiz={AfricaQuiz} />} />
+        <Route path="/Asia/quiz"   element={< AsiaQuiz quiz={AsiaQuiz} />} />
+        <Route path="/Oceana/quiz" element={< OceaniaQuiz quiz={OceaniaQuiz} />} />
+        <Route path="/southAmerica/quiz" element={< SouthAmericaQuiz quiz={SouthAmericaQuiz} />} />
+        <Route path="/Northandcentralamerica/quiz" element={< NorthAmericaQuiz quiz={NorthAmericaQuiz} />} />
       </Routes>
     </Router>
     </>

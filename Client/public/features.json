@@ -28921,7 +28921,7 @@
     "properties": {
     "continent": "South America",
     "color": "green",
-    "link": "/southamerica"
+    "link": "/southAmerica"
     }
     },
     {
@@ -29072,7 +29072,7 @@
     "properties": {
     "continent": "Oceania",
     "color": "orange",
-    "link": "/oceania"
+    "link": "/Oceania"
 
     }
     },
@@ -29992,7 +29992,7 @@
     "properties": {
     "continent": "Asia",
     "color": "red",
-    "link": "/asia"
+    "link": "/Asia"
     
     
 
@@ -30036,7 +30036,7 @@
     "type": "MultiPolygon",
     "properties": {
     "continent": "Africa",
-    "link": "/africa"
+    "link": "/Africa"
     
     }
     },
@@ -30188,7 +30188,7 @@
     "properties": {
     "continent": "Oceania",
     "color": "orange",
-    "link": "/oceania"
+    "link": "/Oceania"
 
     }
     },
@@ -30536,7 +30536,7 @@
     "properties": {
     "continent": "North & Central America",
     "color": "purple",
-    "link": "/northandcentralamerica"
+    "link": "/NorthandCentralAmerica"
 
     }
     },
@@ -30703,7 +30703,7 @@
     "properties": {
     "continent": "Europe",
     "color": "blue",
-    "link": "/europe"
+    "link": "/Europe"
 
     
     }
@@ -31113,7 +31113,7 @@
     "properties": {
     "continent": "Asia",
     "color": "red",
-    "link": "/asia"
+    "link": "/Asia"
     }
     },
     {
@@ -31155,7 +31155,7 @@
     "properties": {
     "continent": "Africa",
     "color": "yellow",
-    "link": "/africa"
+    "link": "/Africa"
     
     }
     }

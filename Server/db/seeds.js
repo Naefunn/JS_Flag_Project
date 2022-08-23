@@ -99,7 +99,7 @@ db.countries.insertMany([
         currency: "Brazilian real",
         language: "Portuguese",
         captial: "Brasília",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/br.svg"
     },
     {
@@ -108,7 +108,7 @@ db.countries.insertMany([
         currency: "Colombian Peso",
         language: "Spanish",
         captial: "Bogotá",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/co.svg"
     },
     {
@@ -117,7 +117,7 @@ db.countries.insertMany([
         currency: "Argentine Peso",
         language: "Spanish",
         captial: "Buenos Aires",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/ar.svg"
     },
     {
@@ -126,7 +126,7 @@ db.countries.insertMany([
         currency: "Sol",
         language: "Spanish",
         captial: "Lima",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/pe.svg"
     },
     {
@@ -135,7 +135,7 @@ db.countries.insertMany([
         currency: "Chilean Peso",
         language: "Spanish",
         captial: "Santiago",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/cl.svg"
     },
     {
@@ -144,7 +144,7 @@ db.countries.insertMany([
         currency: "Venezuelan Bolívar",
         language: "Spanish",
         captial: "Caracas",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/ve.svg"
     },
     {
@@ -153,7 +153,7 @@ db.countries.insertMany([
         currency: "US Dollars",
         language: "Spanish",
         captial: "Quito",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/ec.svg"
     },
     {
@@ -162,7 +162,7 @@ db.countries.insertMany([
         currency: "Boliviano",
         language: "Spanish",
         captial: "La Paz",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/bo.svg"
     },
     {
@@ -171,7 +171,7 @@ db.countries.insertMany([
         currency: "Uruguayan peso",
         language: "Spanish",
         captial: "Montevideo",
-        continent: "South American",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/uy.svg"
     },
     {
@@ -180,7 +180,7 @@ db.countries.insertMany([
         currency: "Guarani",
         language: "Spanish",
         captial: "Asunción",
-        continent: "South America",
+        continent: "SouthAmerica",
         flag: "https://flagcdn.com/py.svg"
     }]},
 {Asia:[{
@@ -369,7 +369,7 @@ db.countries.insertMany([
         currency: "U.S dollar",
         language: "English",
         captial: "Wahington, D.C.",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/us.svg"
     },
     {
@@ -378,7 +378,7 @@ db.countries.insertMany([
         currency: "Mexican Peso",
         language: "Spanish",
         captial: "Mexico City",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/mx.svg"
     },
     {
@@ -387,7 +387,7 @@ db.countries.insertMany([
         currency: "Quetzal",
         language: "Spanish",
         captial: "Guatemala City",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag:  "https://flagcdn.com/gt.svg"
     },
     {
@@ -396,7 +396,7 @@ db.countries.insertMany([
         currency: "Lempira",
         language: "Spanish",
         captial: "Tegucigalpa",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/hn.svg"
     },
     {
@@ -405,7 +405,7 @@ db.countries.insertMany([
         currency: "Costa Rican Colón",
         language: "Spanish",
         captial: "San José",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/cr.svg"
     },
     {
@@ -414,7 +414,7 @@ db.countries.insertMany([
         currency: "Balboa",
         language: "Spanish",
         captial: "Panama City",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/pa.svg"
     },
     {
@@ -423,7 +423,7 @@ db.countries.insertMany([
         currency: "Belize dollar",
         language: "English",
         captial: "Belmopan",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/bz.svg"
     },
     {
@@ -432,7 +432,7 @@ db.countries.insertMany([
         currency: "Canadian dollar",
         language: "English",
         captial: "Ottawa",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/ca.svg"
     },
     {
@@ -441,7 +441,7 @@ db.countries.insertMany([
         currency: "Córdoba",
         language: "Spanish",
         captial: "Managua",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/ni.svg"
     },
     {
@@ -450,7 +450,7 @@ db.countries.insertMany([
         currency: "Salvadoran colón",
         language: "Spanish",
         captial: "San Salvador",
-        continent: "North and Central America",
+        continent: "NorthandCentralAmerica",
         flag: "https://flagcdn.com/sv.svg"
     }]},
 {Oceana:[{

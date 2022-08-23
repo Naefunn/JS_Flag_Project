@@ -4,7 +4,7 @@ import './countryDetail.css';
 const CountryDetail = ({country}) => {
   
   return (
-      
+    <>  
     <div className="individual-country">
       <h4 className="country-name">{country.name}</h4>
           <ul className="country-list-details">
@@ -16,7 +16,8 @@ const CountryDetail = ({country}) => {
                 <img src={country.flag} width="200" height="150" className='country-flag'/>
             </li>
           </ul>
-    </div>
+      </div>
+    </>
   )
 }
 
