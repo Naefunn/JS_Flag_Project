@@ -9,11 +9,11 @@ const CountryDetail = ({country}) => {
       <h4 className="country-name">{country.name}</h4>
           <ul className="country-list-details">
             <li key={country.name} className="country-info" >
-                <p>Population: {country.population} people</p>
-                <p>Currency: {country.currency}</p>
-                <p>Language: {country.language}</p>
-                <p>Capital: {country.captial}</p>
-                <img src={country.flag} width="200" height="150" className='country-flag'/>
+                <h5 className="country-text">Population: {country.population} people</h5>
+                <h5 className="country-text">Currency: {country.currency}</h5>
+                <h5 className="country-text">Main language: {country.language}</h5>
+                <h5 className="country-text">Capital city: {country.captial}</h5>
+                <img src={country.flag} width="200" height="150" className="country-flag"/>
             </li>
           </ul>
     </div>

@@ -16,6 +16,9 @@ const ContinentList = ({countries}) => {
     <div className="country-details">
       {countryNodes}
     </div>
+
+
+
   )
 
 };

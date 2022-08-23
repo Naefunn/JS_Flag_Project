@@ -6,8 +6,22 @@
 
 .individual-country {
     border: solid 2px black;
-}
+    flex: 0.33333 1 0px;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,121,99,1) 30%, rgba(0,212,255,1) 100%);}
 
 .country-name {
     text-align: center;
+}
+
+.country-text {
+    justify-content: center;
+}
+
+.country-flag {
+    width: 250px;
+    height: 150px;
+}
+
+.country-name {
+    margin: 0px;
 }
