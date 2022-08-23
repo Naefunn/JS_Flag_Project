@@ -1,0 +1,13 @@
+.country-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.individual-country {
+    border: solid 2px black;
+}
+
+.country-name {
+    text-align: center;
+}

@@ -1,14 +1,14 @@
 import React from 'react';
+import './countryDetail.css';
 
 const CountryDetail = ({country}) => {
   
   return (
       
-    <div>
+    <div className="individual-country">
       <h4 className="country-name">{country.name}</h4>
-        <div className='country-info'>
-          <ul>
-            <li key={country.name}>
+          <ul className="country-list-details">
+            <li key={country.name} className="country-info" >
                 <p>Population: {country.population} people</p>
                 <p>Currency: {country.currency}</p>
                 <p>Language: {country.language}</p>
@@ -16,7 +16,6 @@ const CountryDetail = ({country}) => {
                 <img src={country.flag} width="200" height="150" className='country-flag'/>
             </li>
           </ul>
-        </div>
     </div>
   )
 }
