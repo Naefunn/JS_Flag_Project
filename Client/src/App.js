@@ -28,6 +28,12 @@ const App = () => {
     const [southAmericaCountries, setSouthAmericaCountries] = useState([]);
     const [oceaniaCountries, setOceaniaCountries] = useState([]);
     const [northCentralAmericaCountries, setNorthCentralAmericaCountries] = useState([]);
+    const [europeName, setEuropeName] = useState(null);
+    const [africaName, setAfricaName] = useState(null);
+    const [asiaName, setAsiaName] = useState(null);
+    const [southAmericaName, setSouthAmericaName] = useState(null);
+    const [oceaniaName, setOceaniaName] = useState(null);
+    const [northCentralAmericaName, setNorthCentralAmericaName] = useState(null);
 
     useEffect(() => {
         getCountries();
@@ -44,22 +50,32 @@ const App = () => {
           setAfricaCountries(countries[3].Africa)
           setNorthCentralAmericaCountries(countries[4].NorthAndCentralAmerica)
           setOceaniaCountries(countries[5].Oceana)
+          
+          setEuropeName(countries[0].Europe[0].continent)
+          setSouthAmericaName(countries[1].southAmerica[0].continent)
+          setAsiaName(countries[2].Asia[0].continent)
+          setAfricaName(countries[3].Africa[0].continent)
+          setNorthCentralAmericaName(countries[4].NorthAndCentralAmerica[0].continent)
+          setOceaniaName(countries[5].Oceana[0].continent)
+
         })
     }
 
-  
+
+
+
   return (
     <>
     <Navbar/>
     <Router>
       <Routes>
         <Route exact path="/" element={< Home />} />
-        <Route path="/Europe" element={< Continent countries={europeCountries} />} />
-        <Route path="/Africa" element={< Continent countries={africaCountries} />} />
-        <Route path="/Asia" element={< Continent countries={asiaCountries} />} />
-        <Route path="/Oceania" element={< Continent countries={oceaniaCountries} />} />
-        <Route path="/southAmerica" element={< Continent countries={southAmericaCountries} />} />
-        <Route path="/NorthandCentralAmerica" element={< Continent countries={northCentralAmericaCountries} />} />
+        <Route path="/Europe" element={< Continent countries={europeCountries} continentName={europeName}/>} />
+        <Route path="/Africa" element={< Continent countries={africaCountries} continentName={africaName}/>} />
+        <Route path="/Asia" element={< Continent countries={asiaCountries} continentName={asiaName}/>} />
+        <Route path="/Oceania" element={< Continent countries={oceaniaCountries} continentName={oceaniaName}/>} />
+        <Route path="/southAmerica" element={< Continent countries={southAmericaCountries} continentName={southAmericaName}/>} />
+        <Route path="/NorthandCentralAmerica" element={< Continent countries={northCentralAmericaCountries} continentName={northCentralAmericaName}/>} />
         <Route path="/Europe/quiz" element={< EuropeQuiz quiz={EuropeQuiz} />} />
         <Route path="/Africa/quiz" element={< AfricaQuiz quiz={AfricaQuiz} />} />
         <Route path="/Asia/quiz"   element={< AsiaQuiz quiz={AsiaQuiz} />} />
