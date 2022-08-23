@@ -1,6 +1,8 @@
 import React from "react";
-import CountryDetail from "./countryDetail"
+import CountryDetail from "./countryDetail";
 import './countryDetail.css';
+
+
 
 const ContinentList = ({countries}) => {
   

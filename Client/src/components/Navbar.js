@@ -10,15 +10,10 @@ const Navbar = () => {
 
         <>  
         <div className="Navbar">
-            <ul>
-                <li><img className="home" src="https://cdn-icons-png.flaticon.com/512/25/25694.png"/></li>
-            </ul>
+            <a href="/"/>< img className="home" src="https://toppng.com/uploads/preview/earth-globe-vector-world-map-icon-transparent-11563460387dsa5p0tifc.png"/>
         </div>
-        
         </>
-    )
-    
-    ;
+    );
 }
 
 
