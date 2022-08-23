@@ -1,18 +1,20 @@
 import React from "react";
-import CountrySelector from "./countrySelect";
-import CountryDetail from "./countryDetail";
+import CountryDetail from "./countryDetail"
 
-
-const Continent = ({countries, onCountrySelected, selectedCountry}) => (
-
-  <div>
-    <h4>Hello</h4>
-
-    <CountrySelector countries={countries} onCountrySelected={onCountrySelected}/>
-    {selectedCountry ? <CountryDetail selectedCountry={selectedCountry} /> : null}
-
-  </div>
+const ContinentList = ({countries}) => {
   
-);
+  const countryNodes = countries.map(country => {
+    return (
+      <CountryDetail key={country.id} country={country}></CountryDetail>
+    );
+  });
 
-export default Continent;
+  return(
+    <>
+      {countryNodes}
+    </>
+  )
+
+};
+
+export default ContinentList;
