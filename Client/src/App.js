@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import ReactDOM from "react-dom";
-import ReactTooltip from "react-tooltip";
+// import ReactDOM from "react-dom";
+// import ReactTooltip from "react-tooltip";
 
 import "./styles.css";
 import './App.css';
@@ -11,8 +11,6 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Home from "./continents/Home";
 import Continent from "./continents/Continent";
-// import CountrySelector from './continents/countrySelect';
-// import CountryDetail from './continents/countryDetail';
 
 
 const App = () => {
@@ -24,8 +22,6 @@ const App = () => {
     const [southAmericaCountries, setSouthAmericaCountries] = useState([]);
     const [oceaniaCountries, setOceaniaCountries] = useState([]);
     const [northCentralAmericaCountries, setNorthCentralAmericaCountries] = useState([]);
-
-    const [selectedCountry, setSelectedCountry] = useState("");
 
     useEffect(() => {
         getCountries();
@@ -45,10 +41,6 @@ const App = () => {
         })
     }
 
-    const onCountrySelected = (country) =>{
-        setSelectedCountry(country);
-    }
-
   
   return (
     <>
@@ -56,19 +48,19 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={< Home />} />
-        <Route path="/europe" element={< Continent countries={europeCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
-        <Route path="/africa" element={< Continent countries={africaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
-        <Route path="/asia" element={< Continent countries={asiaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
-        <Route path="/oceania" element={< Continent countries={oceaniaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
-        <Route path="/southamerica" element={< Continent countries={southAmericaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
-        <Route path="/northandcentralamerica" element={< Continent countries={northCentralAmericaCountries} onCountrySelected={onCountrySelected} selectedCountry={selectedCountry}/>} />
+        <Route path="/europe" element={< Continent countries={europeCountries} />} />
+        <Route path="/africa" element={< Continent countries={africaCountries} />} />
+        <Route path="/asia" element={< Continent countries={asiaCountries} />} />
+        <Route path="/oceania" element={< Continent countries={oceaniaCountries} />} />
+        <Route path="/southamerica" element={< Continent countries={southAmericaCountries} />} />
+        <Route path="/northandcentralamerica" element={< Continent countries={northCentralAmericaCountries} />} />
       </Routes>
     </Router>
     </>
   );
+
   
 }
-
 
 // const rootElement = document.getElementById("root");
 // ReactDOM.render(<App />, rootElement);
