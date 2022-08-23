@@ -11,8 +11,6 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Home from "./continents/Home";
 import Continent from "./continents/Continent";
-// import CountrySelector from './continents/countrySelect';
-// import CountryDetail from './continents/countryDetail';
 
 
 const App = () => {
@@ -24,8 +22,6 @@ const App = () => {
     const [southAmericaCountries, setSouthAmericaCountries] = useState([]);
     const [oceaniaCountries, setOceaniaCountries] = useState([]);
     const [northCentralAmericaCountries, setNorthCentralAmericaCountries] = useState([]);
-
-    // const [selectedCountry, setSelectedCountry] = useState("");
 
     useEffect(() => {
         getCountries();
@@ -44,10 +40,6 @@ const App = () => {
           setOceaniaCountries(countries[5].Oceana)
         })
     }
-
-    // const onCountrySelected = (country) =>{
-    //     setSelectedCountry(country);
-    // }
 
   
   return (
