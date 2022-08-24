@@ -43,6 +43,8 @@ const AsiaQuiz = () => {
         if (time > 0) setTimeout(() => setTime(time - 1), 1000)
       }, [time]);
 
+      
+
     
 
 
@@ -114,7 +116,7 @@ return (
                 <div className="message">{message}</div>
                 <div class="timer"></div>
         </div>
-       <a href="/Asia/quiz"><button className="quiz-button">Play Again!</button></a> 
+       <a href="/Asia/quiz"><button className="quiz-button" >Play Again!</button></a> 
     </div>
    
     

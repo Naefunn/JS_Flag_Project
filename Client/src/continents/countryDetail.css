@@ -2,7 +2,7 @@
 .country-details {
     position: relative;
     bottom: 80px;
-    background-color: lightslategray;
+    background-color: lightsteelblue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
 .individual-country {
     font-family: 'Aboreto', cursive;
     width: 334px;
-    border: solid 1px black;
+    border: solid 1.1px black;
     border-radius: 10px;
     margin: 10px;
     padding-top: 10px;

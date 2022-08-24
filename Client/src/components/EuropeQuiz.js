@@ -43,6 +43,8 @@ const EuropeQuiz = () => {
         if (time > 0) setTimeout(() => setTime(time - 1), 1000)
       }, [time]);
 
+
+
     const questions = [
         {
             questionText: "What country does this flag belong to?",

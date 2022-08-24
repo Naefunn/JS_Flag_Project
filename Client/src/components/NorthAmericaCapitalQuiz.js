@@ -44,6 +44,12 @@ const NorthAmericaCapitalQuiz = () => {
         if (time > 0) setTimeout(() => setTime(time - 1), 1000)
       }, [time]);
 
+
+      const scrollToTop = () => {
+        window.scrollTo(0, 40)
+    
+      }
+
     const questions = [
         {
             questionText: "What is the capital of the United States?",

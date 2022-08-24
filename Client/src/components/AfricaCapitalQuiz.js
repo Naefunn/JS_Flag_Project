@@ -44,6 +44,8 @@ const AfricaCapitalQuiz = () => {
         if (time > 0) setTimeout(() => setTime(time - 1), 1000)
       }, [time]);
 
+     
+
     const questions = [
         {
             questionText: "What is the capital of Senegal?",
