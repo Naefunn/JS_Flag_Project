@@ -49,10 +49,11 @@
 #flag-section {
 font-family: 'Aboreto', cursive;
 position: relative;
-left: 190px;
+left: 10px;
 top: 125px;
 padding-left: 20px;
 padding-right: 20px;
+margin-right: 15px;
 margin-bottom: 50px;
 background-color: cadetblue;
 width: 298px;
