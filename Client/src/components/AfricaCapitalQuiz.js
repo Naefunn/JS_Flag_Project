@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import './Quiz.css'
 
 
-const AfricaQuiz = () => {
+const AfricaCapitalQuiz = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [nextQuestion, setNextQuestion] = useState(currentQuestion + 1)
@@ -86,7 +86,7 @@ const AfricaQuiz = () => {
             answerOptions: [
                 {answerText: "Abuja", isCorrect: true},
                 {answerText: "Cape Town", isCorrect: false},
-                {answerText: "Accra", isCorrect: true},
+                {answerText: "Accra", isCorrect: false},
                 {answerText: "Dakar", isCorrect: false}
             ]
         }
@@ -114,4 +114,4 @@ return (
 )
 };
 
-export default AfricaQuiz;
+export default AfricaCapitalQuiz;
