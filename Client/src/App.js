@@ -13,6 +13,13 @@ import EuropeQuiz from './components/EuropeQuiz';
 import NorthAmericaQuiz from './components/NorthAndCentralAmericaQuiz';
 import OceaniaQuiz from './components/OceaniaQuiz';
 import SouthAmericaQuiz from './components/SouthAmericaQuiz';
+import AfricaCapitalQuiz from './components/AfricaCapitalQuiz';
+import AsiaCapitalQuiz from './components/AsiaCapitalQuiz';
+import EuropeCapitalQuiz from './components/EuropeCapitalQuiz';
+import NorthAmericaCapitalQuiz from './components/NorthAmericaCapitalQuiz';
+import OceaniaCapitalQuiz from './components/OceaniaCapitalQuiz';
+import SouthAmericaCapitalQuiz from './components/SouthAmericaCapitalQuiz';
+
 
 import Navbar from "./components/Navbar";
 import Home from "./continents/Home";
@@ -77,12 +84,20 @@ const App = () => {
         <Route path="/Oceania" element={< Continent countries={oceaniaCountries} continentName={oceaniaName}/>} />
         <Route path="/southAmerica" element={< Continent countries={southAmericaCountries} continentName={southAmericaName}/>} />
         <Route path="/NorthandCentralAmerica" element={< Continent countries={northCentralAmericaCountries} continentName={northCentralAmericaName}/>} />
+       
         <Route path="/Europe/quiz" element={< EuropeQuiz quiz={EuropeQuiz} />} />
         <Route path="/Africa/quiz" element={< AfricaQuiz quiz={AfricaQuiz} />} />
         <Route path="/Asia/quiz"   element={< AsiaQuiz quiz={AsiaQuiz} />} />
         <Route path="/Oceana/quiz" element={< OceaniaQuiz quiz={OceaniaQuiz} />} />
         <Route path="/southAmerica/quiz" element={< SouthAmericaQuiz quiz={SouthAmericaQuiz} />} />
         <Route path="/Northandcentralamerica/quiz" element={< NorthAmericaQuiz quiz={NorthAmericaQuiz} />} />
+       
+       <Route path="/Europe/capitalquiz" element={< EuropeCapitalQuiz quiz={EuropeCapitalQuiz} />} />
+        <Route path="/Africa/capitalquiz" element={< AfricaCapitalQuiz quiz={AfricaCapitalQuiz} />} />
+        <Route path="/Asia/capitalquiz"   element={< AsiaCapitalQuiz quiz={AsiaCapitalQuiz} />} />
+        <Route path="/Oceana/capitalquiz" element={< OceaniaCapitalQuiz quiz={OceaniaCapitalQuiz} />} />
+        <Route path="/southAmerica/capitalquiz" element={< SouthAmericaCapitalQuiz quiz={SouthAmericaCapitalQuiz} />} />
+        <Route path="/Northandcentralamerica/capitalquiz" element={< NorthAmericaCapitalQuiz quiz={NorthAmericaCapitalQuiz} />} />
       </Routes>
     </Router>
     <Footer/>
