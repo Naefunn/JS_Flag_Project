@@ -16,9 +16,16 @@ html {
 
   .geography {
     position: relative;
-    bottom: 50px;
+    bottom: 180px;
     left: 120px;
     align-items: center;
     border-radius: 20px;
     width: 80%;
+  }
+
+  .title {
+  font-family: 'Aboreto', cursive;
+  position: relative;
+  left: 550px;
+  bottom: 80px;
   }
