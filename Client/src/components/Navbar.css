@@ -1,6 +1,5 @@
 .Navbar {
     display: flex;
-    /* background-color: aquamarine; */
 }
 
 ul {
@@ -19,6 +18,8 @@ li {
     width: 25px;
     height: 25px;
 }
+
+
 
 .home:hover {
     transform:scale(1.1)

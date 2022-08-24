@@ -31,7 +31,7 @@ const SouthAmericaQuiz = () => {
         if (nextQuestion < questions.length) {
             setCurrentQuestion(nextQuestion);
         } else {
-            setMessage('you reached the end of the quiz');
+            setMessage('You reached the end of the quiz!');
             setCurrentQuestion(4)
         }
     };
@@ -39,7 +39,7 @@ const SouthAmericaQuiz = () => {
 
     const timer = useEffect(() => {
         if (time === 0 ) {
-            setMessage('You reached the end of the quiz!')
+            setMessage(`Time out! You scored ${score}`)
         }
         if (time > 0) setTimeout(() => setTime(time - 1), 1000)
       }, [time]);
@@ -103,7 +103,7 @@ const SouthAmericaQuiz = () => {
 return (
     <>
     <div className="quiz-section">
-        <div className="score">Score: {score}</div>
+        <div className="score">Score: {score}/{score}</div>
         <div className='question-text'>{questions[currentQuestion].questionText}</div>
         <img src={questions[currentQuestion].flagImage} className="question-image"/>
         <div className='answer-section'>

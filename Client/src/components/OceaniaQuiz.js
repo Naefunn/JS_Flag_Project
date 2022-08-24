@@ -31,7 +31,7 @@ const OceaniaQuiz = () => {
         if (nextQuestion < questions.length) {
             setCurrentQuestion(nextQuestion);
         } else {
-            setMessage('you reached the end of the quiz');
+            setMessage('You reached the end of the quiz!');
             setCurrentQuestion(4)
         }
     };
@@ -39,7 +39,7 @@ const OceaniaQuiz = () => {
 
     const timer = useEffect(() => {
         if (time === 0 ) {
-            setMessage('You reached the end of the quiz!')
+            setMessage(`Time out! You scored ${score}`)
         }
         if (time > 0) setTimeout(() => setTime(time - 1), 1000)
       }, [time]);

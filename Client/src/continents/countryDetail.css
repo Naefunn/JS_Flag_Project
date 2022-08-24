@@ -3,10 +3,32 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .individual-country {
-    border: solid 2px black;
+    border: solid 1px black;
+    border-radius: 10px;
     flex: 0.33333 1 0px;
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,121,99,1) 30%, rgba(0,212,255,1) 100%);}
+    margin: 10px;
+    padding-top: 10px;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,121,99,1) 30%, rgba(0,212,255,1) 100%);
+
+}
+
+
+.individual-country:hover {
+    transform: scale(1.03);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    cursor: pointer;
+
+}
+
+@keyframes box-blinker {
+    100% {
+        border: solid 2px violet;
+    } 
+}
+
 .country-name {
     text-align: center;
 }
@@ -24,7 +46,7 @@
 background-color: cadetblue;
 position: relative;
 left: 1020px;
-bottom: 250px;
+bottom: 300px;
 overflow-wrap:normal;
 text-align: center;
 border: 2px solid black;
