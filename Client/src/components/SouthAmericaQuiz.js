@@ -103,7 +103,7 @@ const SouthAmericaQuiz = () => {
 return (
     <>
     <div className="quiz-section">
-        <div className="score">Score: {score}/{score}</div>
+        <div className="score">Score: {score}</div>
         <div className='question-text'>{questions[currentQuestion].questionText}</div>
         <img src={questions[currentQuestion].flagImage} className="question-image"/>
         <div className='answer-section'>

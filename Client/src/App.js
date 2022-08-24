@@ -17,6 +17,7 @@ import SouthAmericaQuiz from './components/SouthAmericaQuiz';
 import Navbar from "./components/Navbar";
 import Home from "./continents/Home";
 import Continent from "./continents/Continent";
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -84,6 +85,7 @@ const App = () => {
         <Route path="/Northandcentralamerica/quiz" element={< NorthAmericaQuiz quiz={NorthAmericaQuiz} />} />
       </Routes>
     </Router>
+    <Footer/>
     </>
   );
 

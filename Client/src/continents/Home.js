@@ -14,7 +14,7 @@ const Home = ({}) => {
 
   return (
     <>
-
+    <h1 className="title">World School</h1>
     <div className="water" data-tip="">
       <ComposableMap className="geography">
           <Geographies geography="/features.json">

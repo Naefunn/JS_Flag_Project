@@ -1,19 +1,21 @@
+
 .country-details {
+    background-color: lightslategrey;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .individual-country {
+    font-family: 'Aboreto', cursive;
+    width: 334px;
     border: solid 1px black;
     border-radius: 10px;
-    flex: 0.33333 1 0px;
     margin: 10px;
     padding-top: 10px;
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,121,99,1) 30%, rgba(0,212,255,1) 100%);
 
 }
-
 
 .individual-country:hover {
     transform: scale(1.03);
@@ -42,19 +44,28 @@
 .country-name {
     margin: 0px;
 }
-.flag-section {
-background-color: cadetblue;
+
+
+#flag-section {
+font-family: 'Aboreto', cursive;
 position: relative;
-left: 1020px;
-bottom: 300px;
-overflow-wrap:normal;
+left: 190px;
+top: 125px;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom: 50px;
+background-color: cadetblue;
+width: 298px;
+height: 200px;
+overflow-wrap: normal;
 text-align: center;
-border: 2px solid black;
+border: 1px solid black;
 border-radius: 10px;
-width:350px;
-padding: 10px;
 }
+
+
 .flag-button {
+font-family: 'Aboreto', cursive;
 font-size: 15px;
 width: 100px;
 height: 40px;

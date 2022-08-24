@@ -4,9 +4,8 @@ html {
   }
   
   .water {
-    margin: 0;
-    padding: 0 1.5rem;
-    background-image: linear-gradient(white, aqua);
+    height: 370px;
+    background-image: linear-gradient(white, rgba(0,212,255,1));
   }
   
   svg {
@@ -16,9 +15,16 @@ html {
 
   .geography {
     position: relative;
-    bottom: 50px;
+    bottom: 190px;
     left: 120px;
     align-items: center;
     border-radius: 20px;
     width: 80%;
+  }
+
+  .title {
+  font-family: 'Aboreto', cursive;
+  position: relative;
+  left: 550px;
+  bottom: 80px;
   }

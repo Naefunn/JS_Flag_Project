@@ -19,10 +19,12 @@ const ContinentList = ({countries, continentName}) => {
     
     <div className="country-details">
       {countryNodes}
-    </div>
-    <div className="flag-section">
-      <h3>Can you remember all the Flags? Beat the clock!</h3>
-      <Link to={`/${continentName}/quiz`}><button className="flag-button">Flag quiz</button></Link>
+
+      <div id="flag-section">
+        <h3>Can you remember all the Flags? Beat the clock!</h3>
+        <Link to={`/${continentName}/quiz`}><button className="flag-button">Flag quiz</button></Link>
+      </div>
+
     </div>
 
     </>
