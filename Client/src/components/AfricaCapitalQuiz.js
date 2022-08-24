@@ -55,42 +55,42 @@ const AfricaQuiz = () => {
             ]
         },
         {
-            questionText: "What country does this flag belong to?",
+            questionText: "What is the capital of South Afirca?",
             answerOptions: [
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: true},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "Abuja", isCorrect: false},
+                {answerText: "Dakar", isCorrect: false},
+                {answerText: "Cape Town", isCorrect: true},
+                {answerText: "Yaoundé", isCorrect: false}
             ]
         },
         {
-            questionText: "What country does this flag belong to?",
+            questionText: "What is the capital of Senegal?",
             answerOptions: [
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Morocco", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "Ghana", isCorrect: false}
+                {answerText: "Abuja", isCorrect: false},
+                {answerText: "Rabat", isCorrect: false},
+                {answerText: "Dakar", isCorrect: true},
+                {answerText: "Yamoussoukro", isCorrect: false}
             ]
         },
         {
-            questionText: "What country does this flag belong to?",
+            questionText: "What is the capital of Senegal?",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: true},
-                {answerText: "Senegal", isCorrect: false},
-                {answerText: "South Africa", isCorrect: false},
-                {answerText: "Nigeria", isCorrect: false}
+                {answerText: "Abuja", isCorrect: false},
+                {answerText: "Rabat", isCorrect: false},
+                {answerText: "Dakar", isCorrect: true},
+                {answerText: "Yamoussoukro", isCorrect: false}
             ]
         },
         {
-            questionText: "What country does this flag belong to?",
+            questionText: "What is the capital of Senegal?",
             answerOptions: [
-                {answerText: "Ghana", isCorrect: false},
-                {answerText: "Kenya", isCorrect: false},
-                {answerText: "Cameroon", isCorrect: false},
-                {answerText: "Senegal", isCorrect: true}
+                {answerText: "Abuja", isCorrect: false},
+                {answerText: "Rabat", isCorrect: false},
+                {answerText: "Dakar", isCorrect: true},
+                {answerText: "Yamoussoukro", isCorrect: false}
             ]
         }
-    ]
+    ];
 
 return (
     <>
