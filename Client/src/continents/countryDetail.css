@@ -6,6 +6,7 @@
 }
 
 .individual-country {
+    font-family: 'Aboreto', cursive;
     width: 334px;
     border: solid 1px black;
     border-radius: 10px;
@@ -45,6 +46,7 @@
 
 
 #flag-section {
+font-family: 'Aboreto', cursive;
 position: relative;
 left: 190px;
 top: 125px;
@@ -62,6 +64,7 @@ border-radius: 10px;
 
 
 .flag-button {
+font-family: 'Aboreto', cursive;
 font-size: 15px;
 width: 100px;
 height: 40px;
