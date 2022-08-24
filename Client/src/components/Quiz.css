@@ -32,7 +32,8 @@
 
 .quiz-button {
     font-family: 'Aboreto', cursive;
-    margin: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
     color: black;
     background-color: white;
     border: 1px solid grey;
@@ -82,7 +83,7 @@
     font-weight: bolder;
     position: relative;
     right: 20px;
-    bottom: 145px;
+    bottom: 140px;
     text-align: center;
     z-index: 1;
     color: red;

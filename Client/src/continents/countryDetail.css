@@ -1,9 +1,20 @@
 
 .country-details {
+    position: relative;
+    bottom: 80px;
     background-color: lightslategray;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.continent-title {
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    position: relative;
+    bottom:80px;
+    width: 600px;
+    left: 400px;
 }
 
 .individual-country {

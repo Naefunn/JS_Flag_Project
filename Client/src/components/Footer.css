@@ -1,9 +1,10 @@
 footer {
     position: relative;
+    bottom: 80px;
     font-family: 'Aboreto', cursive;
     background-image: linear-gradient(to top, rgba(2,0,36,1), rgba(0,212,255,1));
     padding-top: 10px;
-    padding-bottom: 120px;
+    padding-bottom: 280px;
     /* top: 200px; */
 } 
 

@@ -70,6 +70,15 @@ const App = () => {
     }
 
 
+    const northAmerica = "North and Central America"
+    const southAmerica = "South America"
+    const europe = "Europe"
+    const africa = "Africa"
+    const asia = "Asia"
+    const oceania = "Oceania"
+
+
+
 
 
   return (
@@ -78,12 +87,12 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={< Home />} />
-        <Route path="/Europe" element={< Continent countries={europeCountries} continentName={europeName}/>} />
-        <Route path="/Africa" element={< Continent countries={africaCountries} continentName={africaName}/>} />
-        <Route path="/Asia" element={< Continent countries={asiaCountries} continentName={asiaName}/>} />
-        <Route path="/Oceania" element={< Continent countries={oceaniaCountries} continentName={oceaniaName}/>} />
-        <Route path="/southAmerica" element={< Continent countries={southAmericaCountries} continentName={southAmericaName}/>} />
-        <Route path="/NorthandCentralAmerica" element={< Continent countries={northCentralAmericaCountries} continentName={northCentralAmericaName}/>} />
+        <Route path="/Europe" element={< Continent countries={europeCountries} continentName={europeName} name={europe}/>} />
+        <Route path="/Africa" element={< Continent countries={africaCountries} continentName={africaName} name={africa}/>} />
+        <Route path="/Asia" element={< Continent countries={asiaCountries} continentName={asiaName} name={asia}/>} />
+        <Route path="/Oceania" element={< Continent countries={oceaniaCountries} continentName={oceaniaName} name={oceania}/>} />
+        <Route path="/southAmerica" element={< Continent countries={southAmericaCountries} continentName={southAmericaName} name={southAmerica}/>} />
+        <Route path="/NorthandCentralAmerica" element={< Continent countries={northCentralAmericaCountries} continentName={northCentralAmericaName} name={northAmerica}/>} />
        
         <Route path="/Europe/quiz" element={< EuropeQuiz quiz={EuropeQuiz} />} />
         <Route path="/Africa/quiz" element={< AfricaQuiz quiz={AfricaQuiz} />} />

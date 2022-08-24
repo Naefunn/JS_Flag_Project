@@ -5,7 +5,7 @@ import './countryDetail.css';
 
 
 
-const ContinentList = ({countries, continentName}) => {
+const ContinentList = ({countries, continentName, name}) => {
   
   const countryNodes = countries.map(country => {
     return (
@@ -16,7 +16,7 @@ const ContinentList = ({countries, continentName}) => {
 
   return (
     <>
-    
+    <h1 className="continent-title">{name}</h1>
     <div className="country-details">
       {countryNodes}
 
