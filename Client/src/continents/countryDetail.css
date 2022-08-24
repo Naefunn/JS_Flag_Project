@@ -1,6 +1,6 @@
 
 .country-details {
-    background-color: lightslategrey;
+    background-color: lightslategray;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

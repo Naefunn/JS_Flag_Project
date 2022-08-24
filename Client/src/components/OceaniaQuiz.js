@@ -100,6 +100,7 @@ const OceaniaQuiz = () => {
 
 return (
     <>
+
     <div className="quiz-section">
         <div className="score">Score: {score}</div>
         <div className='question-text'>{questions[currentQuestion].questionText}</div>
@@ -110,9 +111,10 @@ return (
         ))}
           <div class="timer"></div>
         </div>
-       <a href="/Oceania/quiz"><button className="quiz-button">Play Again!</button></a> 
+       <a href="/Oceana/quiz"><button className="quiz-button">Play Again!</button></a> 
     </div>
     <div className="message">{message}</div>
+    
     
     </>
 )

@@ -1,25 +1,20 @@
-html {
+ html {
     font-family: system-ui, sans-serif;
     font-size: 1.25rem;
-  }
-  
+  } 
+   
   .water {
-    height: 370px;
     background-image: linear-gradient(white, rgba(0,212,255,1));
+    height: 600px;
   }
-  
-  svg {
-    display: inline-block;
-    vertical-align: middle;
-  }
+
 
   .geography {
     position: relative;
-    bottom: 190px;
-    left: 120px;
+    bottom: 190px; 
+    left: 120px; 
     align-items: center;
-    border-radius: 20px;
-    width: 80%;
+    width: 80%; 
   }
 
   .title {

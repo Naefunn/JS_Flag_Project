@@ -50,7 +50,7 @@ const EuropeQuiz = () => {
             answerOptions: [
                 {answerText: "France", isCorrect: false},
                 {answerText: "Germany", isCorrect: false},
-                {answerText: "United Kingdom", isCorrect: true},
+                {answerText: "UK", isCorrect: true},
                 {answerText: "Italy", isCorrect: false}
             ]
         },
@@ -80,7 +80,7 @@ const EuropeQuiz = () => {
             answerOptions: [
                 {answerText: "France", isCorrect: true},
                 {answerText: "Germany", isCorrect: false},
-                {answerText: "United Kingdom", isCorrect: false},
+                {answerText: "UK", isCorrect: false},
                 {answerText: "Italy", isCorrect: false}
             ]
         },
@@ -90,7 +90,7 @@ const EuropeQuiz = () => {
             answerOptions: [
                 {answerText: "Holland", isCorrect: true},
                 {answerText: "Germany", isCorrect: false},
-                {answerText: "United Kingdom", isCorrect: false},
+                {answerText: "UK", isCorrect: false},
                 {answerText: "Italy", isCorrect: false}
             ]
         }

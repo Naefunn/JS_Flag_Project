@@ -21,6 +21,7 @@ const Home = ({}) => {
             {({ geographies }) =>
               geographies.map((geo) => (
                 <Geography
+                  className="geography"
                   key={geo.rsmKey} 
                   geography={geo}
                   onMouseEnter={() => {
