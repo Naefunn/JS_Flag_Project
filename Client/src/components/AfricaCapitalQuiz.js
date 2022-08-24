@@ -64,30 +64,30 @@ const AfricaQuiz = () => {
             ]
         },
         {
-            questionText: "What is the capital of Senegal?",
+            questionText: "What is the capital of Cameroon?",
             answerOptions: [
-                {answerText: "Abuja", isCorrect: false},
-                {answerText: "Rabat", isCorrect: false},
-                {answerText: "Dakar", isCorrect: true},
-                {answerText: "Yamoussoukro", isCorrect: false}
+                {answerText: "Yaoundé", isCorrect: true},
+                {answerText: "Accra", isCorrect: false},
+                {answerText: "Dakar", isCorrect: false},
+                {answerText: "Cape Town", isCorrect: false}
             ]
         },
         {
-            questionText: "What is the capital of Senegal?",
+            questionText: "What is the capital of Kenya?",
             answerOptions: [
                 {answerText: "Abuja", isCorrect: false},
-                {answerText: "Rabat", isCorrect: false},
-                {answerText: "Dakar", isCorrect: true},
-                {answerText: "Yamoussoukro", isCorrect: false}
+                {answerText: "Dakar", isCorrect: false},
+                {answerText: "Addis Ababa", isCorrect: false},
+                {answerText: "Nairobi", isCorrect: true}
             ]
         },
         {
-            questionText: "What is the capital of Senegal?",
+            questionText: "What is the capital of Nigeria?",
             answerOptions: [
-                {answerText: "Abuja", isCorrect: false},
-                {answerText: "Rabat", isCorrect: false},
-                {answerText: "Dakar", isCorrect: true},
-                {answerText: "Yamoussoukro", isCorrect: false}
+                {answerText: "Abuja", isCorrect: true},
+                {answerText: "Cape Town", isCorrect: false},
+                {answerText: "Accra", isCorrect: true},
+                {answerText: "Dakar", isCorrect: false}
             ]
         }
     ];
@@ -103,7 +103,7 @@ return (
         ))}
           <div class="timer"></div>
         </div>
-       <a href="/Africa/quiz"><button className="quiz-button">Play Again!</button></a> 
+       <a href="/Africa/capitalquiz"><button className="quiz-button">Play Again!</button></a> 
 
     </div>
     <div className="message">{message}</div>
