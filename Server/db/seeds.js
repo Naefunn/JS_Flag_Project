@@ -52,7 +52,7 @@ db.countries.insertMany([
         population: 59550000,
         currency: "Euro",
         language: "Italian",
-        captial: "Milan",
+        captial: "Rome",
         continent: "Europe",
         flag: "https://flagcdn.com/it.svg"
         },
@@ -88,7 +88,7 @@ db.countries.insertMany([
         population: 4955500,
         currency: "Euro",
         language: "Irish/English",
-        captial: "",
+        captial: "Dublin",
         continent: "Europe",
         flag: "https://flagcdn.com/ie.svg"
     }]},
