@@ -101,12 +101,17 @@ return (
         {questions[currentQuestion].answerOptions.map((answerOption, index) => (
             <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)} className="quiz-button">{answerOption.answerText}</button>
         ))}
-          <div class="timer"></div>
+          
+        </div>
+        <div>
+                <div className="message">{message}</div>
+                <div class="timer"></div>
         </div>
        <a href="/Africa/capitalquiz"><button className="quiz-button">Play Again!</button></a> 
+       
 
     </div>
-    <div className="message">{message}</div>
+   
     
     </>
 

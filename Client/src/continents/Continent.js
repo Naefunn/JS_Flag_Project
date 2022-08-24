@@ -26,7 +26,7 @@ const ContinentList = ({countries, continentName, name}) => {
       </div>
       <div id="flag-section">
         <h3>Can you remember all the capital cities? Beat the clock!</h3>
-        <Link to={`/${continentName}/capitalquiz`}><button className="flag-button">Flag quiz</button></Link>
+        <Link to={`/${continentName}/capitalquiz`}><button className="flag-button">Capital quiz</button></Link>
       </div>
 
     </div>

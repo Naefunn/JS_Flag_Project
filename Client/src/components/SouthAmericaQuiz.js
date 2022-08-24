@@ -53,7 +53,7 @@ const SouthAmericaQuiz = () => {
             answerOptions: [
                 {answerText: "Brazil", isCorrect: true},
                 {answerText: "Argentina", isCorrect: false},
-                {answerText: "Columbia", isCorrect: false},
+                {answerText: "Colombia", isCorrect: false},
                 {answerText: "Chile", isCorrect: false}
             ]
         },
@@ -62,7 +62,7 @@ const SouthAmericaQuiz = () => {
             flagImage: "https://flagcdn.com/ve.svg",
             answerOptions: [
                 {answerText: "Brazil", isCorrect: false},
-                {answerText: "Columbia", isCorrect: false},
+                {answerText: "Colombia", isCorrect: false},
                 {answerText: "Venezuela", isCorrect: true},
                 {answerText: "Chile", isCorrect: false}
             ]
@@ -81,7 +81,7 @@ const SouthAmericaQuiz = () => {
             questionText: "What country does this flag belong to?",
             flagImage: "https://flagcdn.com/co.svg",
             answerOptions: [
-                {answerText: "Columbia", isCorrect: true},
+                {answerText: "Colombia", isCorrect: true},
                 {answerText: "Argentina", isCorrect: false},
                 {answerText: "Ecuador", isCorrect: false},
                 {answerText: "Chile", isCorrect: false}
@@ -110,11 +110,14 @@ return (
         {questions[currentQuestion].answerOptions.map((answerOption, index) => (
             <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)} className="quiz-button">{answerOption.answerText}</button>
         ))}
-          <div class="timer"></div>
+        </div>
+        <div>
+                <div className="message">{message}</div>
+                <div class="timer"></div>
         </div>
        <a href="/SouthAmerica/quiz"><button className="quiz-button">Play Again!</button></a> 
     </div>
-    <div className="message">{message}</div>
+    
     
     </>
 )
