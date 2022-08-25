@@ -106,7 +106,7 @@ return (
                 <div className="message">{message}</div>
                 <div class="timer"></div>
         </div>
-       <a href="/Oceania/capitalquiz"><button className="quiz-button">Play Again!</button></a> 
+       <a href="/Oceana/capitalquiz"><button className="quiz-button">Play Again!</button></a> 
 
     </div>
     
